@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="shortcut icon" href="https://github.com/gmostofabd/melab-store/blob/main/Images/melab-bd_logo.jpg?raw=true" type="image/x-icon">
+
+  <script src="assets/sharedfooter.js" type="text/javascript" defer></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(function(){
+      $('#sidebar1').load("assets/sidebar1.html");
+    });
+  </script>
+
+  <meta charset="utf-8">
+	<meta name="Keywords" content="Microcontroller,8051,Assembly,Programming,Code,Proteus">
+
+  <!--Facebook Open graph Mete Tags-->
+	<meta property="og:url"                content="https://gmostofabd.github.io/8051-LED/" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="Exp-01 : 8051 Simple I/O Interface" />
+	<meta property="og:description"        content="8051 Microcontroller statr-up experiment in minutes" />
+	<meta property="og:image"              content="assets/images/LED_8051_Ckt.png" />
+	
+	<title>8051 Simple I/O Programming</title>
+</head>
+
+	
+<body  bgcolor=white>
+
+	<div id="header_common"><img src="https://github.com/gmostofabd/melab-store/blob/main/Images/8051_Tutorial_Banner.png?raw=true" alt="common_banner"></div>
+	<div id="topic_container"><h2>Exp. 01 : LED Interfacing with 8051</h2></div>
+
+
+  <table align = center width=1000 height=1000  bgcolor= white>
+	  <tr>
+	  <td width=800 align=center valign=top bgcolor=white>
+		
+		<h3>Introduction:</h3>
+          <blockquote>
+		  <p>
+            We are very familiar with “Hello world!” basic program code in the initial 
+            stage of any programming language to learn some basic things. Similarly to 
+            get started with any Microcontroller, LED interfacing is a basic and simplest 
+            experiment to see a physical output.
+            
+            <br><br>Each Microcontroller is different in its architecture, but the 
+            interfacing concepts are almost same for all. One can understand the concept 
+            of input-output configurations of the general-purpose I/O port in a 
+            microcontroller with the simple LED blinking project. This tutorial will 
+            explain the method of interfacing LEDs with 8051 microcontrollers.
+	      </p>
+          </blockquote>
+
+        <h3>Hardware Discussion : Light Emitting Diode (LED)</h3>
+          <blockquote>
+            <p>
+              A Light Emitting Diode (LED) is a semiconductor device, which can emit 
+              light when an electric current passes through it. 
+            </p>
+          </blockquote>
+	
+            <div class="box_70"><img src="assets/images/led_looks.jpg"/></div>
+            <div class="capt_cont">Fig: Some of available LCD modules</div>
+
+          <blockquote>
+            <p>
+              LEDs are commonly green, amber, or red, but they can be an assortment of other colors as they've 
+              become popular with case lighting. Below are examples of how an LED could 
+              be used with a computer.
+
+              <br><br>Keyboard LEDs, Mouse Leds, Motherboard LED, Network card, Wi-Fi, switch, and router LED,
+              Battery LED, Floppy, hard drive, CD-ROM, and other drives LED, Printer, speakers, monitor, and other devices,
+              and many more.
+            </p>
+          </blockquote>
+
+
+      <h3>LED Features :</h3>
+            
+      <ul>
+          <li>Normal LEDs consume very Low Power while <strong>High Power LEDs</strong>are very bright 
+            and are often used in Flashlights, Automobile Headlamps, Spotlights, etc.</li>
+          <li>Fast Switching</li>
+          <li>Physically Robust</li>
+          <li>Long Lasting</li> 
+          <li>Available in colors, sizes and shapes.</li>
+          <li>Lower price.</li>
+      </ul>
+        <br>
+      <h3>LED Basics :</h3>
+
+        <div class="box_80"><img src="assets/images/LED_Config1.png" alt="LCD mdules"></div>
+        <div class="capt_cont">Fig: LED Symbol and Physical Configuration</div>
+
+
+        <h3>How it works?</h3>
+        <blockquote>
+        <p>
+            The symbol of LED is formed by merging the symbol of P-N Junction diode and outward
+             arrows. These outward arrows symbolise the light radiated by the light emitting diode.
+             
+             <br><br>
+        
+             From the above figure we can have a lot of information regarding LED. The longer leg 
+             is Anode and the smaller one is cathode pin. There will be a notch on the surface 
+             indicates cathode side. Another process to determine the anode cathode pin if you see 
+             inside, the cathode plate is larger than the anode plate. The anode cathode pin can 
+             also be identified using a multi-meter or a 5V power supply unit.
+          
+          <br><br>From the chart at right of above figure we can see that each LED has its own 
+          forward voltage drop across the PN junction and this parameter which is determined by 
+          the semiconductor material used, is the forward voltage drop for a specified amount of 
+          forward conduction current, typically for a forward current of 20mA.
+        </p>
+        </blockquote>
+
+
+        <h3>LED Series Resistors:</h3>
+        <blockquote>
+        <p>In most cases LEDs are operated from a low voltage DC supply, with a series resistor, 
+            Rs used to limit the forward current to a safe value from say 5mA for a simple LED 
+            indicator to 30mA or more where a high brightness light output is needed.
+            
+            <br><br>The series resistor value R is calculated by simply using Ohm´s Law, by 
+            knowing the required forward current I of the LED, the supply voltage VS across the 
+            combination and the expected forward voltage drop of the LED, VF at the required 
+            current level, the current limiting resistor is calculated as below:
+        </p>
+        </blockquote>
+
+
+        <h3>LED Series Resistance Calculation</h3>
+
+        <div class="box_80"><img src="assets/images/led_res5.png"/></div>
+        <div class="capt_cont">Fig: LED Series Resistance Calculation</div>
+
+
+
+        <h3>Circuit Diagram :</h3>
+        <div class="box_90"><img src="assets/images/LED_8051_Ckt.png" alt="ckt_diagram" width="600" height="350"></div>
+        <div class="capt_cont">Fig: LED interfacing with 8051</div>
+
+        <h3>Circuit Discussion :</h3>
+
+        <blockquote>
+            <p>Here is the circuit diagram of the AT89S51 interfaced 2 LEDs on two different PORT Pins. 
+                One is connected to PORT-0 at PIN-7 and second one is connected  to PORT2 PIN0 of the 
+                Microcontroller. Both the LEDs are driven through resistors for limiting current.
+                
+                <br><br>The image shown above is directly screen capture from our Proteus simulation.
+                By observing the simulator markers (i.e. red and blue squares expresses logic 1 and 
+                logic 0 accordingly.) When the both LED are ON we can see one of our port pin is 
+                showing high or logic 1 while other one is logic 0. It is happening due to to 
+                connection logic of the LEDs. We have connected the cathode pin of LED1 (D1) to the 
+                microcontroller pin. So, we need to make the corresponding pin low to illuminate the 
+                LED. And for the LED2 (D2) which is vice versa as is its reverse connection configuration.
+
+                <br><br>In this microcontroller, pin source current is limited to 10mA per pin 
+                (please refer datasheet). So even if the resistor is not provided with LED, there will 
+                not be any damage to the LEDs. But in good practice the resistor is always used.
+
+            </p>
+            </blockquote>
+
+
+        <h3>Assembly Program : <a href="https://github.com/gmostofabd/8051-LED/blob/main/codes/led_blink_8051.asm">led_8051.asm</a></h3>
+        <div class="prog_cont">
+            <embed type="text/html" src="codes/led_blink_8051.asm"  width="500" height="500">
+        </div>
+
+        <h3>Code Discussion:</h3>
+            <blockquote>
+            <p>
+                The code lines are properly commented as and when it is required. Assumed that, the 
+                comments are sufficient to inform you about the corresponding line of instruction. 
+                The delay function at the end creates a nominal delay in blinking the LEDs. The accurate 
+                value of time delay could be calculated with the known value of instruction execution 
+                time but is not done here since it is beyond the scope of this article. Each time when 
+                this function is called in main a delay is generated.
+            </p>
+            </blockquote>
+
+
+
+        <h3>Post Run Discussion:  LED Chaser (Code Optimization)</h3>
+        <blockquote>
+        <p>
+            A problem can be solved in multiple ways having different efficiencies. Beginners may skip 
+            the efficiency issues but in good programming practices alternates are always a thirst of 
+            developers. Below is an example of some ways out for a sameoperation.
+
+          <br><br>Example : Write code that will run 8 LEDs on a port one by one at a predefinedinterval.
+        </p>
+        </blockquote>
+
+
+        <h3>Circuit Diagram : LED Chaser</h3>
+        <div class="box_90"><img src="assets/images/led_chaser.png" alt="ckt_diagram" width="600" height="350"></div>
+        <div class="capt_cont">Fig: 8 LED circuit</div>
+
+
+        <h3>Assembly Program : <a href="https://github.com/gmostofabd/8051-LED/blob/main/codes/LED_Chaser_8051.asm">led_chaser.asm</a></h3>
+          <div class="prog_cont">
+            <embed type="text/html" src="codes/LED_Chaser_8051.asm"  width="500" height="500">
+          </div>
+
+          <blockquote>
+            <p>
+              Now we can have a brief discussion on code logics. In the above code we can see 
+              the body code can be writen as many forms:
+
+              <br><br>Example -1: 
+
+              <br><br>Example -2:
+            </p>
+          </blockquote>
+	
+	<div class="exercise_section">
+        <h3>Exercises :</h3>
+	
+          <ul><h4>Lab Task :</h4>
+            <li>8 LED Chaser with different patterns.</li>
+          </ul>
+	
+          <ul><h4>Home Task :</h4>
+            <li>Use two ports and create a Heart shape in your Proteus simulator. Then write an 
+              assembly program to run it as possible way as you can. for example a running or flashing heart.
+              </li>
+          </ul>
+
+          <div class="box_50"><img src="assets/images/hw_1.png" alt="ckt_diagram" width="600" height="350"></div>
+	</div>
+
+          <h3>Tips and Tricks:</h3>
+
+          <blockquote>
+            <p>
+              <strong>Software Delay -</strong> is a routine used to create a delay in any microcontroller. 
+              In 8051 Microcontroller, it requires 12  cycles of the processor clock for executing a 
+              single instruction cycle. For an 8051 microcontroller clocked by a 12MHz crystal, the 
+              time taken for executing one instruction cycle is 1µS and it is according to the equation, 
+              Time for 1 instruction cycle= 12 /12MHz = 1µS. The shortest instructions will execute in 
+              1µS and other will take 2 or more micro seconds depending up on the size of the instruction.
+
+              <br><br>Thus a time delay of any magnitude can be generated by looping suitable instructions 
+              a required number of time. Any way, keep one thing in mind that software delay is not very 
+              accurate because we cannot exactly predict how much time its takes for executing a single 
+              instruction. Generally an instruction will be executed  in the theoretical amount of time 
+              but some times it may advance or retard due to other reasons. Therefore it is better to 
+              use 8051 Timer for generating delay in time critical applications. How ever software delay 
+              routines are very easy to develop and well enough for less critical and simple applications.
+              <br><br>
+
+              <strong>Program  to delay 1mS :</strong><br><br>
+              DELAY:  MOV     R6,#250D <br>
+                      MOV     R7,#250D <br>
+              LABEL1: DJNZ    R6,LABEL1 <br>
+              LABEL2: DJNZ    R7,LABEL2 <br>
+              RET <br><br>
+
+              The above program roughly produces a delay of 1mS. The instruction DJNZ Rx,LABEL is a two 
+              cycle instruction and it will take 2µS to execute. So repeating this instruction 500 times 
+              will generate a delay of 500 x 2µS = 1mS. The program is written as a subroutine and it 
+              works this way. When called the sub routine DELAY, Registers R6 and R7 are loaded by 250D. 
+              Then DJNZ R6,LABEL1 is executed until R6 becomes zero and then DJNZ R7,LABEL2 is executed 
+              until R7 is zero. This creates a loop of DJNZ Rx, LABEL  repeating 500 times and the result 
+              will be a 1mS delay. As I said earlier, this just a rough delay and when you test this 
+              program you may find  slight differences in the output. You can make adjustments on the 
+              initial values of R6 and R7 to make the result more accurate.
+
+              <br><br>
+              <strong>Program to delay 1 second :</strong><br><br>
+
+              The program shown below produces a delay of  around 1 second.  In this program subroutine 
+              for delaying 1mS (DELAY) is called 4 times back to back and the entire cycle is repeated 
+              250 times. As result, a delay of  4 x 1mS x 250 = 1000mS = 1 second is produced.
+
+              <br><br>
+                  DELAY1: MOV     R5,#250D <br>
+                  LABEL:  ACALL   DELAY <br>
+                          ACALL   DELAY <br>
+                          ACALL   DELAY <br>
+                          ACALL   DELAY <br>
+                          DJNZ    R5,LABEL <br>
+                          RET <br><br>
+                  DELAY:  MOV     R6,#250D <br>
+                          MOV     R7,#250D <br>
+                  LABEL1: DJNZ    R6,LABEL1 <br>
+                  LABEL2: DJNZ    R7,LABEL2 <br>
+                          RET <br><br>
+            </p>
+          </blockquote>  
+    </td>
+
+    <td valign=top>
+		
+
+      <div class="vdo_lst_cont">
+          <h3>Lesson Video</h3>
+          <iframe width="186" height="130" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+      </div>
+
+      <div id="sidebar1"></div>
+
+    </td>
+
+    </tr>
+         
+  </table>
+
+  <table width=1000 height=50 align= center border="1">
+	  <tr>
+			<td>Prev topic: 8051 Development Tools</td>
+			<td>Next topic: Push Button interfacing with 8051</td>
+		</tr>
+  </table>
+
+	<div id="footer_common"><footer-component></footer-component></div>
+</body>
+</html>
