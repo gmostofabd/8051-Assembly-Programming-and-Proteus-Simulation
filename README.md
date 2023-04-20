@@ -7,5 +7,6 @@ A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...)
 
 ![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/1bb5999e01a706562d08c4b1a48a52809380565f/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png)
 
+![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
 
 
