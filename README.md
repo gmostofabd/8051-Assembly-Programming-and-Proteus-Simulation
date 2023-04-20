@@ -9,4 +9,6 @@ A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...)
 
 ![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
 
-
+![My Image](my-image.jpg)
+![My Image](images/my-image.jpg)
+![My Image](../images/my-image.jpg)
