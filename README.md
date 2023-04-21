@@ -9,6 +9,10 @@ A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...)
 
 ![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
 
+
+
+https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec2a20e1ed5de725dcc4af20464118b14303960f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png
+
 ![My Image](my-image.jpg)
 ![My Image](images/my-image.jpg)
 ![My Image](../images/my-image.jpg)
