@@ -5,20 +5,14 @@ A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...)
 Each individual folder is well captioned that you can estimate easily.
 
 # Features
-* Input field for entering text or URLs.
-* Button to generate a QR code based on the input.
-* Instant display of the generated QR code.
-* Responsively designed for various devices.
-* Built-in error handling for empty input.
+* Assembly Code with Comments line.
+* Hex code to run directly.
+* Proteus file to enable you to configure hardware connections.
 
 # How to Use
-1. Clone or download the repository.
-2. Open index.html in a web browser.
-3. Enter the desired text or URL in the input field.
-4. Click the "Generate QR Code" button.
-5. The QR code image will be displayed below.
-6. You can scan or save the QR code as needed.
-7. Feel free to modify and customize the code according to your requirements.
+1. Open the Simulation file.
+2. Simulate.
+3. If you want to edit the source code open the asm file in any assembler.
 
 
 
