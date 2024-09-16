@@ -1,5 +1,3 @@
-Here’s the updated `README.md` with the correct tools—**MIDE-51** as the editor and compiler, and **avrdudes** for downloading programs to the hardware:
-
 ---
 
 # 8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation
