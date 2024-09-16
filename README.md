@@ -98,11 +98,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## **Contact**
 
-For any queries, feel free to reach out to me at [**your-email@example.com**](mailto:your-email@example.com).
+For any queries, feel free to reach out to me at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gmail.com).
 
 ---
 
-This version incorporates **M
 
 IDE-51** as the editor and compiler and **avrdudes** as the tool for downloading programs to the hardware.
 
