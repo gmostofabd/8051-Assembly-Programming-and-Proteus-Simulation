@@ -103,6 +103,12 @@ For any queries, feel free to reach out to me at [**mostofa.melab@gmail.com**](m
 
 IDE-51** as the editor and compiler and **avrdudes** as the tool for downloading programs to the hardware.
 
+
+
+# 8051-Assembly-Programming-and-Proteus-Simulation
+A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...) Assembly Programming Examples. All circuits have been simulated over Proteus software and verified on real hardware.
+
+
 Here is some images that we created during test cycles which may update any time by you or me.
 
 ![8051 Freq  Counter](https://user-images.githubusercontent.com/78910261/227980300-0c4bb725-4390-48da-9c45-6d4368b940fe.png)
@@ -121,14 +127,3 @@ Here is some images that we created during test cycles which may update any time
 ![My Image](my-image.jpg)
 ![My Image](images/my-image.jpg)
 ![My Image](../images/my-image.jpg)
-
-
-
-
-
-
-
-# 8051-Assembly-Programming-and-Proteus-Simulation
-A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...) Assembly Programming Examples. All circuits have been simulated over Proteus software and verified on real hardware.
-
-![8051 Freq  Counter](https://user-images.githubusercontent.com/78910261/227980300-0c4bb725-4390-48da-9c45-6d4368b940fe.png)
