@@ -1,129 +1,126 @@
 ---
 
-# 8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation
+# ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a series of tutorials and practical examples focused on programming the **8051 microcontroller** using **Assembly language** and simulating the designs in **Proteus**.
+<hr/>
 
-## Overview
+Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
 
-This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of programming 8051 microcontrollers in Assembly and simulate their behavior using Proteus. Each tutorial provides a detailed explanation of the code and hardware setup required, along with ready-to-use project files.
+## 🚀 **Overview**
 
-## **Features**
+This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation. Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
 
-- **Comprehensive 8051 Assembly language tutorials**
-- **Step-by-step guides** for each example
-- **Proteus simulation files** for testing the code in a virtual environment
-- **Well-documented code** with comments for better understanding
-- Common 8051 **peripheral interfacing examples** (LEDs, 7-segment displays, LCD, motors, etc.)
+## ✨ **Features**
 
-## **Tutorials List**
+- **Comprehensive 8051 Assembly tutorials** for various peripherals
+- Ready-to-use **Proteus simulation files**
+- Well-commented **Assembly code** for easier learning
+- Practical interfacing examples like LEDs, motors, and displays
+- Tutorials on **UART communication**, **ADC interfacing**, and more
 
-1. **Introduction to 8051 Microcontroller Architecture**
-   - Overview of the **8051 microcontroller** and its features
-   - Setup guide for programming in **Assembly language** using **MIDE-51**
+## 🛠️ **Tutorials**
+
+1. **8051 Microcontroller Architecture & Setup**
+   - Introduction to 8051
+   - Program with **MIDE-51** and simulate in **Proteus**
 
 2. **LED Blinking with 8051**
-   - Assembly code to blink an **LED**
-   - **Proteus simulation** of the circuit
+   - Simple Assembly code for LED blink
+   - **Proteus simulation** file included
 
 3. **7-Segment Display Interfacing**
-   - How to interface and control a **7-segment display** with 8051
-   - **Assembly code** and Proteus simulation
+   - Assembly code to interface **7-segment displays**
+   - Simulate the circuit in Proteus
 
 4. **LCD Interfacing**
-   - Send data to an **LCD** and display characters
-   - Assembly code for initializing and writing to the LCD
-   - **Proteus simulation** setup
+   - Write characters on an LCD with 8051
+   - Ready **Proteus simulation** files
 
-5. **Switch and LED Control**
-   - Using **push buttons** to control LEDs with 8051
-   - Assembly programming and **Proteus simulation**
+5. **DC Motor Control**
+   - Interfacing and controlling a **DC motor**
+   - Simulation and hardware test setup
 
-6. **DC Motor Interfacing with 8051**
-   - Control a **DC motor** using 8051
-   - Assembly code and Proteus simulation file included
+6. **Serial Communication via UART**
+   - Code to handle UART communication
+   - Visualize in **Proteus**
 
-7. **Analog to Digital Converter (ADC) Interfacing**
-   - Interfacing **ADC** with the 8051 microcontroller
-   - Simulation and Assembly code to read **analog inputs**
+<hr/>
 
-8. **Serial Communication with 8051**
-   - Basics of **UART communication** with Assembly programming
-   - Sending and receiving data via the **serial port**
-   - Proteus simulation to visualize **data transmission**
+## 📦 **Getting Started**
 
-## **Getting Started**
+### **Requirements:**
 
-### **Prerequisites**
-
-To follow along with the tutorials, you'll need:
-
-- [MIDE-51](https://www.opcube.com/) as the **editor and compiler** for Assembly programming.
-- [avrdudes](http://savannah.nongnu.org/projects/avrdude) to **download the program** to the hardware.
-- [Proteus Design Suite](https://www.labcenter.com/downloads/) for **circuit simulation**.
-- A basic understanding of **microcontrollers** and **Assembly language**.
+- [MIDE-51](https://www.opcube.com/) for Assembly code development
+- [avrdudes](http://savannah.nongnu.org/projects/avrdude) for uploading programs to hardware
+- [Proteus Design Suite](https://www.labcenter.com/downloads/) for circuit simulation
 
 ### **Installation**
 
-1. Clone this repository to your local machine:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/yourusername/8051-microcontroller-tutorials.git
    ```
 
-2. Open the **Assembly code files** in **MIDE-51** and compile them.
-3. Use **avrdudes** to download the compiled program to your hardware.
-4. Import the **Proteus simulation files** into **Proteus Design Suite** and run the simulation.
+2. Open Assembly files in **MIDE-51** and compile.
+3. Use **avrdudes** to download the program to the hardware.
+4. Open Proteus simulation files to visualize the circuit.
 
-## **Contributing**
+## 🤝 **Contributing**
 
-**Contributions are welcome!** If you'd like to improve a tutorial, fix an issue, or add a new example, feel free to submit a **pull request**.
+We welcome contributions! If you'd like to add new examples or improve existing ones:
 
-1. **Fork** the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. **Commit** your changes (`git commit -m 'Add some feature'`).
-4. **Push** to the branch (`git push origin feature/your-feature`).
-5. Open a **pull request**.
+1. **Fork** this repository.
+2. Create a new branch:  
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:  
+   ```bash
+   git commit -m "Add a feature"
+   ```
+4. Push to the branch and create a **pull request**.
 
-## **License**
+## 📜 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-## **Acknowledgments**
+## 🏆 **Acknowledgments**
 
-- Special thanks to [**MIDE-51**](https://www.opcube.com/), [**avrdudes**](http://savannah.nongnu.org/projects/avrdude), and [**Proteus**](https://www.labcenter.com/) for their excellent development and simulation tools.
-- Inspiration for the tutorials comes from **real-world applications** and **educational resources** on 8051 microcontrollers.
+- Big thanks to **[MIDE-51](https://www.opcube.com/)**, **[avrdudes](http://savannah.nongnu.org/projects/avrdude)**, and **[Proteus](https://www.labcenter.com/)** for their fantastic tools.
 
-## **Contact**
+## 🖼️ **Gallery**
 
-For any queries, feel free to reach out to me at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gmail.com).
+Here are some images from our test cycles. These examples are constantly updated as we refine the projects.
+
+### **Frequency Counter**
+
+![8051 Freq Counter](https://user-images.githubusercontent.com/78910261/227980300-0c4bb725-4390-48da-9c45-6d4368b940fe.png)
+
+### **LED Blinking Example**
+
+![8051 LED Blink](https://user-images.githubusercontent.com/78910261/229527413-34dcaa9a-317c-43b9-b92a-57ceb21b0747.png)
+
+### **Up/Down Counter**
+
+![UP_DN_COUNTER](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/1bb5999e01a706562d08c4b1a48a52809380565f/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png)
+
+### **ADC Interfacing Example**
+
+![Schematic](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
+
+### **Stepper Motor Control**
+
+![Stepper Motor Control](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec2a20e1ed5de725dcc4af20464118b14303960f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png)
+
+### **Serial UART Communication**
+
+![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
+
+## 📧 **Contact**
+
+For queries, reach out at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gmail.com).
 
 ---
 
-
-IDE-51** as the editor and compiler and **avrdudes** as the tool for downloading programs to the hardware.
-
-
-
-# 8051-Assembly-Programming-and-Proteus-Simulation
-A collection of ATMEL 8051 Series Microcontrollers (AT89C51/AT89S51/AT89S52/...) Assembly Programming Examples. All circuits have been simulated over Proteus software and verified on real hardware.
-
-
-Here is some images that we created during test cycles which may update any time by you or me.
-
-![8051 Freq  Counter](https://user-images.githubusercontent.com/78910261/227980300-0c4bb725-4390-48da-9c45-6d4368b940fe.png)
-![8051 LED Blink](https://user-images.githubusercontent.com/78910261/229527413-34dcaa9a-317c-43b9-b92a-57ceb21b0747.png)
-
-
-![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/1bb5999e01a706562d08c4b1a48a52809380565f/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png)
-
-![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
-
-
-![8051 LED Blink](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec2a20e1ed5de725dcc4af20464118b14303960f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png)
-
-![8051_Serial_UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
-
-![My Image](my-image.jpg)
-![My Image](images/my-image.jpg)
-![My Image](../images/my-image.jpg)
+This version uses **graphics, highlights**, and **links** to enhance readability while keeping the key information intact.
