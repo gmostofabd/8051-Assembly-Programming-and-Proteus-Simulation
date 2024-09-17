@@ -1,60 +1,87 @@
-
- 
-body{
-    align-items: center;
-    background-color: #ddd9b5ff;
-  }
-  
-  h2{
-    font-size: 150%;
-    flex-wrap: 23px ;
-    color: blueviolet;
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
-    margin: 0px;
-  }
-  
-  h3{
-    font-size: 20px;
-    flex-wrap: 23px ;
-    text-align: left;
-    color: rgb(105, 13, 70);
-  }
- 
- img {
-      width: 100%;
-      height: 100%;
-  }
+    background-color: #f4f4f4;
+}
 
-   
-   #header_common{
-    width:350px; height:auto; 
-    margin: auto;
-    }
-  
-  
-   #topic_container{
-    width:310px; height:auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    text-align: center; 
-    border-radius: 15px;
-    border: 1px solid #ede8c2ff;
-    background-color:#ddd9b5ff;
-  /*	border: 1px solid #73AD21;
-      background-color:#ddd9b5ff; */
-    }
-  
-  
-.capt_cont{
-    width: 80%; height: 30px;
-    margin: auto;
-    margin-top: 20px;
-    padding: 10px;
+/* Header styles */
+#header_common {
     text-align: center;
-    color: rgb(112, 108, 108);
-    border-bottom: 2px solid #ede8c2ff;
-    border-radius: 15px;
- }
+    margin: 20px 0;
+}
+
+#header_common img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title section */
+#topic_container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Main container for the experiment topics */
+#root_cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual topic containers */
+.capt_cont {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.capt_cont:hover {
+    transform: translateY(-5px);
+}
+
+.capt_cont img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Links for topics */
+.capt_cont a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.capt_cont a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Description text for each topic */
+.capt_cont p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
