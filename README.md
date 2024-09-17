@@ -1,8 +1,7 @@
 ---
-
 # ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-![8051_Assembly_Tutorials_Banner2c](https://github.com/user-attachments/assets/1704906b-dca5-481c-bbd0-4b357398a085)
+![8051_Assembly_Tutorials_Banner2d](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
 Welcome to the **8051 Microcontroller Tutorials** repository! 
 
@@ -156,6 +155,25 @@ Here are some images from our test cycles. These examples are constantly updated
 <br/>
 <hr/>
 <br/>
+
+
+
+Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
+
+- [Electronics Hub](https://www.electronicshub.org/8051-microcontroller-basics/)  
+- [Exploring Embedded](https://exploreembedded.com/wiki/8051_Introduction)  
+- [Tutorials Point](https://www.tutorialspoint.com/microprocessor/microcontroller_8051.htm)  
+- [Engineers Garage](https://www.engineersgarage.com/8051-microcontroller-projects-and-tutorials/)  
+- [All About Circuits](https://www.allaboutcircuits.com/technical-articles/an-introduction-to-the-8051-microcontroller-the-basics/)  
+- [Embedded Lab](http://embedded-lab.com/blog/8051-microcontroller/)
+
+These resources should give you a strong foundation to explore 8051 microcontrollers and develop your programming skills.
+<br/>
+<br/>
+<br/>
+
+
+
 
 ## 📧 **Contact**
 
