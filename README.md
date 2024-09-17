@@ -1,9 +1,7 @@
 ---
-![8051_Assembly_Tutorials_Banner2d](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
-
 # ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-![8051_Assembly_Tutorials_Banner2c](https://github.com/user-attachments/assets/1704906b-dca5-481c-bbd0-4b357398a085)
+![8051_Assembly_Tutorials_Banner2d](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
 Welcome to the **8051 Microcontroller Tutorials** repository! 
 
