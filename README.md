@@ -2,7 +2,7 @@
 
 # ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-![8051_Assembly_Tutorials_Banner2](https://github.com/user-attachments/assets/f2dbdd35-1339-41fb-95b5-a1c27bbf201e)
+![8051_Assembly_Tutorials_Banner2c](https://github.com/user-attachments/assets/1704906b-dca5-481c-bbd0-4b357398a085)
 
 Welcome to the **8051 Microcontroller Tutorials** repository! 
 
@@ -74,7 +74,7 @@ Each tutorial provides a **step-by-step guide** for programming the **8051 micro
 
 > **Note:** Don’t have a development board? No worries! You can still follow along by using a **USBasp Programmer**, along with basic **components** and **breadboards** for hands-on practice with the examples.
 
-
+<br/>
 
 ### **Installation**
 
@@ -87,6 +87,8 @@ Each tutorial provides a **step-by-step guide** for programming the **8051 micro
 2. Open Assembly files in **MIDE-51** and compile.
 3. Use **avrdudes** to download the program to the hardware.
 4. Open Proteus simulation files to visualize the circuit.
+
+<br/>
 
 ## 🤝 **Contributing**
 
@@ -103,17 +105,27 @@ We welcome contributions! If you'd like to add new examples or improve existing 
    ```
 4. Push to the branch and create a **pull request**.
 
+<br/>
+
 ## 📜 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+<br/>
 
 ## 🏆 **Acknowledgments**
 
 - Big thanks to **[MIDE-51](https://www.opcube.com/)**, **[avrdudes](http://savannah.nongnu.org/projects/avrdude)**, and **[Proteus](https://www.labcenter.com/)** for their fantastic tools.
 
+<br/>
+<hr/>
+<br/>
+
 ## 🖼️ **Gallery**
 
 Here are some images from our test cycles. These examples are constantly updated as we refine the projects.
+
+<br/>
 
 ### **Frequency Counter**
 
