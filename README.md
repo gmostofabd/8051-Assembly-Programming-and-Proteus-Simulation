@@ -2,11 +2,24 @@
 
 # ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
+![8051_Assembly_Tutorials_Banner2c](https://github.com/user-attachments/assets/1704906b-dca5-481c-bbd0-4b357398a085)
+
+Welcome to the **8051 Microcontroller Tutorials** repository! 
+
+<br/>
+
+This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
+
+<br/>
+
 
 ## 🚀 **Overview**
 
-This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation. Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
+
+Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+
+<br/>
 
 ## ✨ **Features**
 
@@ -15,6 +28,7 @@ This repository is designed to help **beginners** and **enthusiasts** learn the 
 - Well-commented **Assembly code** for easier learning
 - Practical interfacing examples like LEDs, motors, and displays
 - Tutorials on **UART communication**, **ADC interfacing**, and more
+<br/>
 
 ## 🛠️ **Tutorials**
 
@@ -42,13 +56,25 @@ This repository is designed to help **beginners** and **enthusiasts** learn the 
    - Code to handle UART communication
    - Visualize in **Proteus**
 
+<hr/>
+<br/>
+<br/>
+
 ## 📦 **Getting Started**
 
 ### **Requirements:**
 
-- [MIDE-51](https://www.opcube.com/) for Assembly code development
-- [avrdudes](http://savannah.nongnu.org/projects/avrdude) for uploading programs to hardware
-- [Proteus Design Suite](https://www.labcenter.com/downloads/) for circuit simulation
+#### **Software:**
+- **[MIDE-51](https://www.opcube.com/)** – A powerful IDE for writing and compiling Assembly code for the 8051 microcontroller.
+- **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – A tool for uploading compiled programs to the hardware.
+- **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – A professional-grade circuit simulation software for visualizing and testing your designs before actual hardware implementation.
+
+#### **Hardware:**
+- **MK-51S Microcontroller Development Kit** – A dedicated development board for the AT89S51/52 microcontroller series to practice real-world interfacing and application design.
+
+> **Note:** Don’t have a development board? No worries! You can still follow along by using a **USBasp Programmer**, along with basic **components** and **breadboards** for hands-on practice with the examples.
+
+<br/>
 
 ### **Installation**
 
@@ -61,6 +87,8 @@ This repository is designed to help **beginners** and **enthusiasts** learn the 
 2. Open Assembly files in **MIDE-51** and compile.
 3. Use **avrdudes** to download the program to the hardware.
 4. Open Proteus simulation files to visualize the circuit.
+
+<br/>
 
 ## 🤝 **Contributing**
 
@@ -77,17 +105,27 @@ We welcome contributions! If you'd like to add new examples or improve existing 
    ```
 4. Push to the branch and create a **pull request**.
 
+<br/>
+
 ## 📜 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+<br/>
 
 ## 🏆 **Acknowledgments**
 
 - Big thanks to **[MIDE-51](https://www.opcube.com/)**, **[avrdudes](http://savannah.nongnu.org/projects/avrdude)**, and **[Proteus](https://www.labcenter.com/)** for their fantastic tools.
 
+<br/>
+<hr/>
+<br/>
+
 ## 🖼️ **Gallery**
 
 Here are some images from our test cycles. These examples are constantly updated as we refine the projects.
+
+<br/>
 
 ### **Frequency Counter**
 
@@ -112,6 +150,12 @@ Here are some images from our test cycles. These examples are constantly updated
 ### **Serial UART Communication**
 
 ![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
+
+<br/>
+<br/>
+<br/>
+<hr/>
+<br/>
 
 ## 📧 **Contact**
 
