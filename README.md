@@ -2,12 +2,18 @@
 
 # ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
 
-Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
+Welcome to the **8051 Microcontroller Tutorials** repository! 
 
+<br/>
+
+This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
+<br/>
 ## 🚀 **Overview**
 
-This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation. Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
 
+Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+<br/>
 ## ✨ **Features**
 
 - **Comprehensive 8051 Assembly tutorials** for various peripherals
@@ -15,7 +21,7 @@ This repository is designed to help **beginners** and **enthusiasts** learn the 
 - Well-commented **Assembly code** for easier learning
 - Practical interfacing examples like LEDs, motors, and displays
 - Tutorials on **UART communication**, **ADC interfacing**, and more
-
+<br/>
 ## 🛠️ **Tutorials**
 
 1. **8051 Microcontroller Architecture & Setup**
@@ -120,6 +126,12 @@ Here are some images from our test cycles. These examples are constantly updated
 ### **Serial UART Communication**
 
 ![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
+
+<br/>
+<br/>
+<br/>
+<hr/>
+<br/>
 
 ## 📧 **Contact**
 
