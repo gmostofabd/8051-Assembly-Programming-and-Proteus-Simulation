@@ -46,9 +46,17 @@ This repository is designed to help **beginners** and **enthusiasts** learn the 
 
 ### **Requirements:**
 
-- [MIDE-51](https://www.opcube.com/) for Assembly code development
-- [avrdudes](http://savannah.nongnu.org/projects/avrdude) for uploading programs to hardware
-- [Proteus Design Suite](https://www.labcenter.com/downloads/) for circuit simulation
+#### **Software:**
+- **[MIDE-51](https://www.opcube.com/)** – A powerful IDE for writing and compiling Assembly code for the 8051 microcontroller.
+- **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – A tool for uploading compiled programs to the hardware.
+- **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – A professional-grade circuit simulation software for visualizing and testing your designs before actual hardware implementation.
+
+#### **Hardware:**
+- **MK-51S Microcontroller Development Kit** – A dedicated development board for the AT89S51/52 microcontroller series to practice real-world interfacing and application design.
+
+> **Note:** Don’t have a development board? No worries! You can still follow along by using a **USBasp Programmer**, along with basic **components** and **breadboards** for hands-on practice with the examples.
+
+
 
 ### **Installation**
 
