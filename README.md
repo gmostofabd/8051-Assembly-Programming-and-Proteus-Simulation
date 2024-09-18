@@ -1,4 +1,12 @@
-Certainly! Here's your full `README.md` file with the YAML front matter added at the top, following your styles:
+---
+title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
+description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
+---
+
+<p align="center">
+   <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+</p>
+
 
 ```yaml
 ---
@@ -8,7 +16,9 @@ description: "A comprehensive repository for learning 8051 microcontroller progr
 ```
 
 ```html
-<h1 align="center">⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+<p align="center">
+   <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+</p>
 ```
 
 Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
@@ -177,14 +187,3 @@ For queries, reach out at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gma
 
 ---
 
-**Note:** The YAML front matter at the top is essential for GitHub Pages and Jekyll to process your markdown file correctly. By adding it, you should resolve the "Invalid YAML front matter" error.
-
-**Explanation of Changes:**
-
-- **Added YAML Front Matter:** Placed at the very top of the file to provide metadata for Jekyll.
-- **Centered Heading:** Adjusted the heading to use `<h1 align="center">` for proper alignment and to maintain your style.
-- **Maintained Your Styles:** Preserved the HTML and markdown formatting you used throughout the document.
-
-After making these changes, commit the updated `README.md` to your repository and check if the build completes successfully.
-
-Let me know if you have any questions or need further assistance!
