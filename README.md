@@ -1,4 +1,3 @@
-Certainly! Here's your full `README.md` file with the YAML front matter added at the top, following your styles:
 
 ```yaml
 ---
