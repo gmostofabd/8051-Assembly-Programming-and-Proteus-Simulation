@@ -1,13 +1,13 @@
+It seems the issue might still persist due to a conflict between the YAML front matter and the use of HTML inside the `README.md`. Here's another way to handle the problem by ensuring Jekyll processes the YAML and the HTML content is properly interpreted without causing layout issues.
 
-```yaml
----
-title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
-description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
----
-```
+You can try removing the front matter from the `README.md` file because front matter is typically not needed for `README.md` files used in GitHub repositories. Instead, you can maintain the focus on the HTML layout directly.
+
+Here’s how the full code should look without YAML:
 
 ```html
-<h1 align="center">⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+<p align="center">
+   <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+</p>
 ```
 
 Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
@@ -176,14 +176,8 @@ For queries, reach out at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gma
 
 ---
 
-**Note:** The YAML front matter at the top is essential for GitHub Pages and Jekyll to process your markdown file correctly. By adding it, you should resolve the "Invalid YAML front matter" error.
+### Key Adjustments:
+1. **Removed YAML front matter**: Since the front matter is conflicting with your HTML, it’s better to remove it in the `README.md`.
+2. **HTML formatting**: The header inside `<p align="center">` is formatted with an `<h1>` tag to maintain your original style.
 
-**Explanation of Changes:**
-
-- **Added YAML Front Matter:** Placed at the very top of the file to provide metadata for Jekyll.
-- **Centered Heading:** Adjusted the heading to use `<h1 align="center">` for proper alignment and to maintain your style.
-- **Maintained Your Styles:** Preserved the HTML and markdown formatting you used throughout the document.
-
-After making these changes, commit the updated `README.md` to your repository and check if the build completes successfully.
-
-Let me know if you have any questions or need further assistance!
+This should work properly without YAML interfering, and GitHub will treat the HTML tags correctly. Let me know if this resolves the issue!
