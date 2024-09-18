@@ -1,22 +1,27 @@
----
-<p align="center">
-   
-# ⚙️ **8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation** ⚙️
+Certainly! Here's your full `README.md` file with the YAML front matter added at the top, following your styles:
 
-</p>
+```yaml
+---
+title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
+description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
+---
+```
+
+```html
+<h1 align="center">⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
+```
 
 Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
 <br/>
 
 ## 🚀 **Overview**
+
 This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
 <br/>
 
 ![8051_Assembly_Tutorials_Banner2d](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
-
 Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
-
 <br/>
 
 ## ✨ **Features**
@@ -63,15 +68,16 @@ Each tutorial provides a **step-by-step guide** for programming the **8051 micro
 ### **Requirements:**
 
 #### **Software:**
+
 - **[MIDE-51](https://www.opcube.com/)** – A powerful IDE for writing and compiling Assembly code for the 8051 microcontroller.
 - **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – A tool for uploading compiled programs to the hardware.
 - **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – A professional-grade circuit simulation software for visualizing and testing your designs before actual hardware implementation.
 
 #### **Hardware:**
+
 - **MK-51S Microcontroller Development Kit** – A dedicated development board for the AT89S51/52 microcontroller series to practice real-world interfacing and application design.
 
 > **Note:** Don’t have a development board? No worries! You can still follow along by using a **USBasp Programmer**, along with basic **components** and **breadboards** for hands-on practice with the examples.
-
 <br/>
 
 ### **Installation**
@@ -85,7 +91,6 @@ Each tutorial provides a **step-by-step guide** for programming the **8051 micro
 2. Open Assembly files in **MIDE-51** and compile.
 3. Use **avrdudes** to download the program to the hardware.
 4. Open Proteus simulation files to visualize the circuit.
-
 <br/>
 
 ## 🤝 **Contributing**
@@ -93,28 +98,29 @@ Each tutorial provides a **step-by-step guide** for programming the **8051 micro
 We welcome contributions! If you'd like to add new examples or improve existing ones:
 
 1. **Fork** this repository.
-2. Create a new branch:  
+2. Create a new branch:
+
    ```bash
    git checkout -b feature/your-feature
    ```
-3. Commit your changes:  
+
+3. Commit your changes:
+
    ```bash
    git commit -m "Add a feature"
    ```
-4. Push to the branch and create a **pull request**.
 
+4. Push to the branch and create a **pull request**.
 <br/>
 
 ## 📜 **License**
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
 <br/>
 
 ## 🏆 **Acknowledgments**
 
 - Big thanks to **[MIDE-51](https://www.opcube.com/)**, **[avrdudes](http://savannah.nongnu.org/projects/avrdude)**, and **[Proteus](https://www.labcenter.com/)** for their fantastic tools.
-
 <br/>
 <hr/>
 <br/>
@@ -122,7 +128,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## 🖼️ **Gallery**
 
 Here are some images from our test cycles. These examples are constantly updated as we refine the projects.
-
 <br/>
 
 ### **Frequency Counter**
@@ -148,34 +153,38 @@ Here are some images from our test cycles. These examples are constantly updated
 ### **Serial UART Communication**
 
 ![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
-
 <br/>
 <br/>
 <br/>
 <hr/>
 <br/>
 
-
-
 Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
 
-- [Electronics Hub](https://www.electronicshub.org/8051-microcontroller-basics/)  
-- [Exploring Embedded](https://exploreembedded.com/wiki/8051_Introduction)  
-- [Tutorials Point](https://www.tutorialspoint.com/microprocessor/microcontroller_8051.htm)  
-- [Engineers Garage](https://www.engineersgarage.com/8051-microcontroller-projects-and-tutorials/)  
-- [All About Circuits](https://www.allaboutcircuits.com/technical-articles/an-introduction-to-the-8051-microcontroller-the-basics/)  
+- [Electronics Hub](https://www.electronicshub.org/8051-microcontroller-basics/)
+- [Exploring Embedded](https://exploreembedded.com/wiki/8051_Introduction)
+- [Tutorials Point](https://www.tutorialspoint.com/microprocessor/microcontroller_8051.htm)
+- [Engineers Garage](https://www.engineersgarage.com/8051-microcontroller-projects-and-tutorials/)
+- [All About Circuits](https://www.allaboutcircuits.com/technical-articles/an-introduction-to-the-8051-microcontroller-the-basics/)
 - [Embedded Lab](http://embedded-lab.com/blog/8051-microcontroller/)
-
-These resources should give you a strong foundation to explore 8051 microcontrollers and develop your programming skills.
 <br/>
 <br/>
 <br/>
-
-
-
 
 ## 📧 **Contact**
 
 For queries, reach out at [**mostofa.melab@gmail.com**](mailto:mostofa.melab@gmail.com).
 
 ---
+
+**Note:** The YAML front matter at the top is essential for GitHub Pages and Jekyll to process your markdown file correctly. By adding it, you should resolve the "Invalid YAML front matter" error.
+
+**Explanation of Changes:**
+
+- **Added YAML Front Matter:** Placed at the very top of the file to provide metadata for Jekyll.
+- **Centered Heading:** Adjusted the heading to use `<h1 align="center">` for proper alignment and to maintain your style.
+- **Maintained Your Styles:** Preserved the HTML and markdown formatting you used throughout the document.
+
+After making these changes, commit the updated `README.md` to your repository and check if the build completes successfully.
+
+Let me know if you have any questions or need further assistance!
