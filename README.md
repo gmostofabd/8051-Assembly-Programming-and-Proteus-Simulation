@@ -1,49 +1,30 @@
----
-title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
-description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
----
-
 <p align="center">
    <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
 </p>
 
-
-```yaml
 ---
-title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
-description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
----
-```
+Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of Tutorials and Practical Examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware for most of the cases.
 
-```html
-<p align="center">
-   <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
-</p>
-```
-
-Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
 <br/>
+This repository may help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
 
 ## 🚀 **Overview**
 
-This repository is designed to help **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
-<br/>
-
 ![8051_Assembly_Tutorials_Banner2d](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
-Each tutorial provides a **step-by-step guide** for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+Each example is a folder and contains  necessary files for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
 <br/>
 
 ## ✨ **Features**
 
-- **Comprehensive 8051 Assembly tutorials** for various peripherals
+- **Comprehensive 8051 Assembly Examoles** for various peripherals
 - Ready-to-use **Proteus simulation files**
 - Well-commented **Assembly code** for easier learning
 - Practical interfacing examples like LEDs, motors, and displays
 - Tutorials on **UART communication**, **ADC interfacing**, and more
 <br/>
 
-## 🛠️ **Tutorials**
+## 🛠️ **list of 8051 Experiments:**
 
 1. **8051 Microcontroller Architecture & Setup**
    - Introduction to 8051
@@ -165,9 +146,7 @@ Here are some images from our test cycles. These examples are constantly updated
 ![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
 <br/>
 <br/>
-<br/>
-<hr/>
-<br/>
+
 
 Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
 
