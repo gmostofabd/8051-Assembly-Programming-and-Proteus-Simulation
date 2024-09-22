@@ -116,39 +116,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 <hr/>
 <br/>
 
-## 🖼️ **Gallery**
-
-Here are some images from our test cycles. These examples are constantly updated as we refine the projects.
-<br/>
-
-### **Frequency Counter**
-
-![8051 Freq Counter](https://user-images.githubusercontent.com/78910261/227980300-0c4bb725-4390-48da-9c45-6d4368b940fe.png)
-
-### **LED Blinking Example**
-
-![8051 LED Blink](https://user-images.githubusercontent.com/78910261/229527413-34dcaa9a-317c-43b9-b92a-57ceb21b0747.png)
-
-### **Up/Down Counter**
-
-![UP_DN_COUNTER](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/1bb5999e01a706562d08c4b1a48a52809380565f/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png)
-
-### **ADC Interfacing Example**
-
-![Schematic](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/672c4a76e4475c034dd7112755f7733918622f63/AD0804%20LED/Schematic.png)
-
-### **Stepper Motor Control**
-
-![Stepper Motor Control](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec2a20e1ed5de725dcc4af20464118b14303960f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png)
-
-### **Serial UART Communication**
-
-![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
-<br/>
-<br/>
 
 
-Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
+## 🖼️ Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
 
 - [Electronics Hub](https://www.electronicshub.org/8051-microcontroller-basics/)
 - [Exploring Embedded](https://exploreembedded.com/wiki/8051_Introduction)
@@ -158,6 +128,84 @@ Here are some popular links for 8051 microcontroller tutorials that you might fi
 - [Embedded Lab](http://embedded-lab.com/blog/8051-microcontroller/)
 <br/>
 <br/>
+
+## Experiments Section
+
+### Experiment 1: LED Blink
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" width="700" height="400">
+[8051 LED Blink](https://gmostofabd.github.io/8051-LED/)  
+This experiment demonstrates how to blink an LED using the 8051 microcontroller.
+
+---
+
+### Experiment 2: Push Button Interfacing
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" width="700" height="400">
+[8051 Push Button Interfacing](https://gmostofabd.github.io/8051-Push-Button/)  
+Learn how to interface a push button with the 8051 to control outputs.
+
+---
+
+### Experiment 3: Seven Segment Display
+<img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" width="700" height="400">
+[8051 Seven Segment Display Interfacing](https://gmostofabd.github.io/8051-7Segment/)  
+Discover how to interface and display numbers on a seven-segment display.
+
+---
+
+### Experiment 4: LED Dot Matrix
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true" alt="LED Dot Matrix" width="700" height="400">
+[8051 LED Dot Matrix Display Interfacing](https://gmostofabd.github.io/8051-LED-Matrix/)  
+Interface an LED Dot Matrix to display patterns or scrolling text.
+
+---
+
+### Experiment 5: LCD Interfacing
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true" alt="LCD Interfacing" width="700" height="400">
+[8051 LCD Interfacing](https://gmostofabd.github.io/8051-LCD/)  
+Interface an LCD with the 8051 to display characters and messages.
+
+---
+
+### Experiment 6: Analog Reading
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true" alt="Analog Reading" width="700" height="400">
+[8051 Potentiometer (Analog) Reading](https://gmostofabd.github.io/8051-Analog/)  
+Learn how to read analog signals from a potentiometer using the 8051.
+
+---
+
+### Experiment 7: Keypad Interfacing
+<img src="https://example.com/keypad.png" alt="Keypad Interfacing" width="700" height="400">
+[8051 Keypad Interfacing](https://gmostofabd.github.io/8051-Keypad/)  
+Interface a 4x4 keypad to take user input for various applications.
+
+---
+
+### Experiment 8: DC Motor Interfacing
+<img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true" alt="DC Motor Interfacing" width="700" height="400">
+[8051 DC Motor Interfacing](https://gmostofabd.github.io/8051-DC-Motor/)  
+Control the speed and direction of a DC motor using the 8051 microcontroller.
+
+---
+
+### Experiment 9: Stepper Motor Interfacing
+<img src="https://example.com/stepper-motor.png" alt="Stepper Motor Interfacing" width="700" height="400">
+[8051 Stepper Motor Interfacing](https://gmostofabd.github.io/8051-Stepper-Motor/)  
+Interface a stepper motor to control its motion in discrete steps.
+
+---
+
+### Experiment 10: RTC Interfacing
+<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20RTC%20DS1307/8051%20RTC%20DS1307%20LCD.png?raw=true" alt="RTC Interfacing" width="700" height="400">
+[8051 RTC Interfacing](https://gmostofabd.github.io/8051-RTC/)  
+Interface a real-time clock (RTC) module to keep track of time.
+
+---
+
+### Experiment 11: EEPROM Interfacing
+<img src="https://example.com/eeprom.png" alt="EEPROM Interfacing" width="700" height="400">
+[8051 EEPROM Interfacing](https://gmostofabd.github.io/8051-Tutorial-Home/)  
+Learn how to read from and write to EEPROM using the 8051 microcontroller.
+
 <br/>
 
 ## 📧 **Contact**
