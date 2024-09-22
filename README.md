@@ -146,9 +146,7 @@ Here are some images from our test cycles. These examples are constantly updated
 ![Serial UART](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/assets/78910261/ac27902e-7506-4b34-8008-047d0ce7477c)
 <br/>
 <br/>
-<br/>
-<hr/>
-<br/>
+
 
 Here are some popular links for 8051 microcontroller tutorials that you might find helpful:
 
