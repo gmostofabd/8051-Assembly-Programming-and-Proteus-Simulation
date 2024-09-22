@@ -1,26 +1,8 @@
----
-title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
-description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
----
-
 <p align="center">
    <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
 </p>
 
-
-```yaml
 ---
-title: "8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation"
-description: "A comprehensive repository for learning 8051 microcontroller programming with assembly language and Proteus simulations."
----
-```
-
-```html
-<p align="center">
-   <h1>⚙️ <strong>8051 Microcontroller Tutorials: Assembly Programming & Proteus Simulation</strong> ⚙️</h1>
-</p>
-```
-
 Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware.
 <br/>
 
