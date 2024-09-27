@@ -6,7 +6,9 @@
 Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly Language**. The examples are simulated in **Proteus** and verified on real hardware in most cases. This repository helps **beginners** and **enthusiasts** learn the fundamentals of 8051 programming, circuit simulation and adjust their custom needs.
 </p>
 
+<br/>
 
+<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers bellow: </strong></p>
 <br/>
 
 | ![Proteus ISIS](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/89S52_400x400.png?raw=true) | ![Proteus ARES](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/asmCode.png?raw=true) | ![3D CAD Models](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/8051LCDx1.png?raw=true) |
@@ -15,6 +17,8 @@ Welcome to the **8051 Microcontroller Tutorials** repository! This repository co
 
 ---
 
+<br/>
+<br/>
 
 ## 🚀 **Overview**
 
@@ -23,12 +27,11 @@ Each example is a folder containing the necessary files for programming the **80
 </p>
 
 ---
-
-## ✨ **Features**
+<br/>
 
 ![8051_Assembly_Tutorials_Banner](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
-
+## ✨ **Features**
 - **Comprehensive 8051 Assembly Examples** for various peripherals
 - Ready-to-use **Proteus simulation files**
 - Well-commented **Assembly code** for easier learning
@@ -36,6 +39,9 @@ Each example is a folder containing the necessary files for programming the **80
 - Tutorials on various communications among devices and more
 
 ---
+
+<br/>
+<br/>
 
 ## 📦 **Getting Started**
 
@@ -48,10 +54,14 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
    - **Familiarity with circuits**, such as series and parallel configurations, basic Ohm’s Law, and power supply management.
    - **Experience with reading schematics** and wiring diagrams.
 
+---
+
 ### 2. **8051 Microcontroller Fundamentals**
    - **Overview of microcontrollers**: What they are and how they work.
    - **Familiarity with the 8051 architecture**: Learn about its registers, memory organization, and basic instruction set.
    - **Basic understanding of Assembly language**: Knowledge of how Assembly commands work and their relationship to hardware control.
+
+---
 
 ### 3. **Programming Concepts**
    - **Assembly Language**: 
@@ -59,6 +69,8 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
      - **Registers and addressing modes** of the 8051.
      - How to write and compile simple Assembly programs.
    - Understanding how **memory and I/O ports** work in microcontrollers.
+
+---
 
 ### 4. **Familiarity with Simulation and Development Tools**
    - **Proteus Design Suite**:
@@ -68,6 +80,8 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
      - Knowledge of how to write, compile, and debug Assembly code in MIDE-51.
      - Familiarity with HEX file generation and loading into simulators or hardware.
     
+---
+
 ### 5. **The Programmer USBasp**
 
 <p align="justify">
@@ -87,8 +101,10 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 3. **Driver Installation**: Use **Zadig** for Windows driver setup.
 
 ---
+<br/>
+<br/>
 
-### **Requirements:**
+## **Requirements:**
 
 #### **Software:**
 - **[MIDE-51](https://www.opcube.com/)** – IDE for writing and compiling Assembly code for 8051.
@@ -101,6 +117,8 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 > **Note:** You can still follow along by using a **USBasp Programmer** and basic **components** for hands-on practice.
 
 ---
+<br/>
+<br/>
 
 ## 📚 **Table of Contents**
 
@@ -116,6 +134,8 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 10. [Experiment 10: PWM Control](#experiment-10-pwm-control)
 
 ---
+<br/>
+<br/>
 
 ## ⚗️ **Experiments Section**
 
