@@ -3,10 +3,16 @@
 </p>
 
 ---
-Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware in most cases.
+<p align="justify">
+   Welcome to the **8051 Microcontroller Tutorials** repository! This repository contains a collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** (AT89C51/AT89S51/AT89S52...) using **Assembly language**. The examples are simulated in **Proteus** and verified on real hardware in most cases.
+</p>
+
 
 <br/>
+
+<p align="justify">
 This repository helps **beginners** and **enthusiasts** learn the fundamentals of 8051 programming and circuit simulation.
+</p>
 
 ---
 
@@ -14,7 +20,9 @@ This repository helps **beginners** and **enthusiasts** learn the fundamentals o
 
 ![8051_Assembly_Tutorials_Banner](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
 
+<p align="justify">
 Each example is a folder containing the necessary files for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+</p>
 
 ---
 
@@ -63,7 +71,10 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
 
 ### 5. **The Programmer USBasp**
 
+<p align="justify">
 The **USBasp** is a widely-used, open-source programmer that enables seamless interfacing between a computer and various microcontrollers, including the **8051 series**. It was developed by Thomas Fischl and is known for being **affordable, easy-to-use**, and **compatible with multiple microcontroller architectures**.
+</p>
+
 
 #### Key Features:
 - **Supports ISP (In-System Programming)**: The USBasp programmer allows you to program the microcontroller directly on the development board without needing to remove it.
