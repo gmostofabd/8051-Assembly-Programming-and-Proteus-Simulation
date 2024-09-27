@@ -40,6 +40,14 @@ Each example is a folder containing the necessary files for programming the **80
 
 ---
 
+## 📄 **Included Files:**
+- **Assembly Code**: The code to drive the 8x8 dot matrix display using the 8051 microcontroller.
+- **Proteus Simulation Files**: Pre-built simulation to test and visualize the circuit.
+- **HEX File**: Ready-to-upload HEX code for the microcontroller.
+- **Screenshots & Photos**: Visual proof of successful testing on both Proteus and hardware.
+
+---
+
 <br/>
 <br/>
 
@@ -48,6 +56,8 @@ Each example is a folder containing the necessary files for programming the **80
 ### **Prerequisites:**
 
 For a beginner to work with the examples in your **8051 Microcontroller Tutorials** repository, the following prerequisites would be helpful:
+
+---
 
 ### 1. **Basic Electronics Knowledge**
    - **Understanding of components** like resistors, capacitors, LEDs, transistors, etc.
@@ -106,12 +116,12 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 
 ## **Requirements:**
 
-#### **Software:**
+### **Software:**
 - **[MIDE-51](https://www.opcube.com/)** – IDE for writing and compiling Assembly code for 8051.
 - **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – Uploads compiled programs to hardware.
 - **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – Circuit simulation software.
 
-#### **Hardware:**
+### **Hardware:**
 - **MK-51S Microcontroller Development Kit**
 
 > **Note:** You can still follow along by using a **USBasp Programmer** and basic **components** for hands-on practice.
@@ -120,68 +130,85 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 <br/>
 <br/>
 
-## 📚 **Table of Contents**
 
-1. [Experiment 1: LED Blink](#experiment-1-led-blink)
-2. [Experiment 2: Push Button Interfacing](#experiment-2-push-button-interfacing)
-3. [Experiment 3: Seven Segment Display](#experiment-3-seven-segment-display)
-4. [Experiment 4: LED Dot Matrix](#experiment-4-led-dot-matrix)
-5. [Experiment 5: LCD Interfacing](#experiment-5-lcd-interfacing)
-6. [Experiment 6: Traffic Light Control](#experiment-6-traffic-light-control)
-7. [Experiment 7: DC Motor Control](#experiment-7-dc-motor-control)
-8. [Experiment 8: Ultrasonic Sensor](#experiment-8-ultrasonic-sensor)
-9. [Experiment 9: Temperature Sensor](#experiment-9-temperature-sensor)
-10. [Experiment 10: PWM Control](#experiment-10-pwm-control)
 
----
-<br/>
-<br/>
+## ⚗️ **Experiments Gallery**
 
-## ⚗️ **Experiments Section**
+<table>
+  <tr>
+    <td align="center" style="vertical-align: bottom;">
+      <a href="https://gmostofabd.github.io/8051-LED/">
+        <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" style="max-width: 100%; height: auto;">
+      </a>
+      <p><strong>Experiment 1: LED Blink</strong></p>
+      <p>This experiment demonstrates how to blink an LED using the 8051 microcontroller.</p>
+    </td>
+    <td align="center" style="vertical-align: center;">
+      <a href="https://gmostofabd.github.io/8051-Push-Button/">
+        <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" style="max-width: 100%; height: auto;">
+      </a>
+      <p><strong>Experiment 2: Push Button Interfacing</strong></p>
+      <p>Learn how to interface a push button with the 8051 to control outputs.</p>
+    </td>
+    <td align="center" style="vertical-align: bottom;">
+      <a href="https://gmostofabd.github.io/8051-7Segment/">
+        <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" style="max-width: 100%; height: auto;">
+      </a>
+      <p><strong>Experiment 3: Seven Segment Display</strong></p>
+      <p>Discover how to interface and display numbers on a seven-segment display.</p>
+    </td>
+  </tr>
+</table>
 
-### Experiment 1: LED Blink
-<p align="center">
-   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" width="700" height="400">
-</p>
-[8051 LED Blink](https://gmostofabd.github.io/8051-LED/) This experiment demonstrates how to blink an LED using the 8051 microcontroller.
 
----
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png">  blah |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png?raw=true">|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png)">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Basic%20Calculator/8051%20Basic%20calculator.png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true">|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png?raw=true">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true">|
 
-### Experiment 2: Push Button Interfacing
-<p align="center">
-   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" width="700" height="300">
-</p>
-[8051 Push Button Interfacing](https://gmostofabd.github.io/8051-Push-Button/) Learn how to interface a push button with the 8051 to control outputs.
 
----
 
-### Experiment 3: Seven Segment Display
-<p align="center">
-   <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" width="700" height="450">
-</p>
-[8051 Seven Segment Display Interfacing](https://gmostofabd.github.io/8051-7Segment/) Discover how to interface and display numbers on a seven-segment display.
 
----
 
-### Experiment 4: LED Dot Matrix
-<p align="center">
-   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true" alt="LED Dot Matrix" width="700" height="400">
-</p>
-[8051 LED Dot Matrix Display Interfacing](https://gmostofabd.github.io/8051-LED-Matrix/) Interface an LED Dot Matrix to display patterns or scrolling text.
 
----
+## 🏆 **Acknowledgments**
 
-### Experiment 5: LCD Interfacing
-<p align="center">
-   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true" alt="LCD Interfacing" width="700" height="300">
-</p>
-[8051 LCD Interfacing](https://gmostofabd.github.io/8051-LCD/) Interface an LCD with the 8051 to display characters and messages.
+A huge **thank you** to the following incredible tools and teams for making this repository possible:
+
+- **[MIDE-51](https://www.opcube.com/)** – for providing a feature-rich, user-friendly IDE that simplifies 8051 Assembly programming.
+  
+- **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – for the essential programmer tool that effortlessly bridges simulation and hardware deployment.
+  
+- **[Atmel (Microchip)](https://www.microchip.com/)** – for their legendary **8051 microcontroller series**, which remains an integral part of embedded systems learning.
+  
+- **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – for their excellent circuit simulation platform that brings designs to life before hitting the hardware stage.
 
 ---
 
-### Experiment 6: Traffic Light Control
+
+## 📝 **Tasks**
+
+- Verify the connections based on the schematic.
+- Modify the code to display different messages.
+- Experiment with the contrast and observe its effects.
+
+---
+---
+# ⚙️ **Additional Informations**
+## 🔗 **Resources**
+
+- **8051 Microcontroller Reference**: [Datasheet](https://www.atmel.com/products/microcontrollers/8051.aspx)
+- **LCD Datasheet**: [HD44780 LCD Controller](https://www.sparkfun.com/datasheets/LCD/HD44780.pdf)
+
+---
+
+### 🛠️ **Future Work**
+- Adding more functionalities such as scrolling text, custom characters, and additional interfacing techniques like 4-bit mode.
+---
 <p align="center">
-   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/main/Traffic%20Light%20Control.png?raw=true" alt="Traffic Light Control" width="700" height="400">
+  <img src="https://github.com/gmostofabd/8051-LCD/blob/82e89081c795286c466389d6ac5c34e6ec4a8050/assets/images/LCD_4B_8051_Ckt.png" alt="4-bit LCD Circuit" width="70%">
 </p>
-[8051 Traffic Light Control](
+```
+
 
