@@ -63,59 +63,36 @@ Each example is a folder containing the necessary files for programming the **80
 ## ⚗️ **Experiments Section**
 
 ### Experiment 1: LED Blink
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" width="700" height="400">
-[8051 LED Blink](https://gmostofabd.github.io/8051-LED/)  
-This experiment demonstrates how to blink an LED using the 8051 microcontroller.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" width="700" height="400"> </p> [8051 LED Blink](https://gmostofabd.github.io/8051-LED/) This experiment demonstrates how to blink an LED using the 8051 microcontroller.
 ---
 
 ### Experiment 2: Push Button Interfacing
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" width="700" height="300">
-[8051 Push Button Interfacing](https://gmostofabd.github.io/8051-Push-Button/)  
-Learn how to interface a push button with the 8051 to control outputs.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" width="700" height="300"> </p> [8051 Push Button Interfacing](https://gmostofabd.github.io/8051-Push-Button/) Learn how to interface a push button with the 8051 to control outputs.
 ---
 
 ### Experiment 3: Seven Segment Display
-<img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" width="700" height="450">
-[8051 Seven Segment Display Interfacing](https://gmostofabd.github.io/8051-7Segment/)  
-Discover how to interface and display numbers on a seven-segment display.
-
+<p align="center"> <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" width="700" height="450"> </p> [8051 Seven Segment Display Interfacing](https://gmostofabd.github.io/8051-7Segment/) Discover how to interface and display numbers on a seven-segment display.
 ---
 
 ### Experiment 4: LED Dot Matrix
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true" alt="LED Dot Matrix" width="700" height="400">
-[8051 LED Dot Matrix Display Interfacing](https://gmostofabd.github.io/8051-LED-Matrix/)  
-Interface an LED Dot Matrix to display patterns or scrolling text.
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true" alt="LED Dot Matrix" width="700" height="400"> </p> [8051 LED Dot Matrix Display Interfacing](https://gmostofabd.github.io/8051-LED-Matrix/) Interface an LED Dot Matrix to display patterns or scrolling text.
 
 ---
 
 ### Experiment 5: LCD Interfacing
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true" alt="LCD Interfacing" width="700" height="300">
-[8051 LCD Interfacing](https://gmostofabd.github.io/8051-LCD/)  
-Interface an LCD with the 8051 to display characters and messages.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true" alt="LCD Interfacing" width="700" height="300"> </p> [8051 LCD Interfacing](https://gmostofabd.github.io/8051-LCD/) Interface an LCD with the 8051 to display characters and messages.
 ---
 
 ### Experiment 6: Analog Reading
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true" alt="Analog Reading" width="700" height="200">
-[8051 Potentiometer (Analog) Reading](https://gmostofabd.github.io/8051-Analog/)  
-Learn how to read analog signals from a potentiometer using the 8051.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true" alt="Analog Reading" width="700" height="200"> </p> [8051 Potentiometer (Analog) Reading](https://gmostofabd.github.io/8051-Analog/) Learn how to read analog signals from a potentiometer using the 8051.
 ---
 
 ### Experiment 7: Keypad Interfacing
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Basic%20Calculator/8051%20Basic%20calculator.png?raw=true" alt="Keypad Interfacing" width="700" height="450">
-[8051 Keypad Interfacing](https://gmostofabd.github.io/8051-Keypad/)  
-Interface a 4x4 keypad to take user input as a two digit calculator.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Basic%20Calculator/8051%20Basic%20calculator.png?raw=true" alt="Keypad Interfacing" width="700" height="450"> </p> [8051 Keypad Interfacing](https://gmostofabd.github.io/8051-Keypad/) Interface a 4x4 keypad to take user input as a two digit calculator.
 ---
 
 ### Experiment 8: DC Motor Interfacing
-<img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true" alt="DC Motor Interfacing" width="700" height="450">
-[8051 DC Motor Interfacing](https://gmostofabd.github.io/8051-DC-Motor/)  
-Control the speed and direction of a DC motor using the 8051 microcontroller.
-
+<p align="center"> <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true" alt="DC Motor Interfacing" width="700" height="450"> </p> [8051 DC Motor Interfacing](https://gmostofabd.github.io/8051-DC-Motor/) Control the speed and direction of a DC motor using the 8051 microcontroller.
 ---
 
 ### Experiment 9: Stepper Motor Interfacing
@@ -126,10 +103,7 @@ Interface a stepper motor to control its motion in discrete steps.
 ---
 
 ### Experiment 10: RTC Interfacing
-<img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20RTC%20DS1307/8051%20RTC%20DS1307%20LCD.png?raw=true" alt="RTC Interfacing" width="700" height="450">
-[8051 RTC Interfacing](https://gmostofabd.github.io/8051-RTC/)  
-Interface a real-time clock (RTC) module to keep track of time.
-
+<p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20RTC%20DS1307/8051%20RTC%20DS1307%20LCD.png?raw=true" alt="RTC Interfacing" width="700" height="450"> </p> [8051 RTC Interfacing](https://gmostofabd.github.io/8051-RTC/) Interface a real-time clock (RTC) module to display time and date on an LCD.
 ---
 
 ### Experiment 11: Serial Communication
