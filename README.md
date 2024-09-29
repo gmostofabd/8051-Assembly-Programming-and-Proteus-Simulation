@@ -18,15 +18,15 @@ Welcome to the **8051 Microcontroller Tutorials** repository! This repository co
 ---
 
 <br/>
-<br/>
 
 ## 🚀 **Overview**
-<p align="justify">
-8051 microcontroller is designed by Intel in 1981. It is an 8-bit microcontroller. It is built with 40 pins DIP (dual inline package), 4kb of ROM storage and 128 bytes of RAM storage, 2 16-bit timers. It consists of are four parallel 8-bit ports, which are programmable as well as addressable as per the requirement.
+<p align="justify" style="background-color: white; color: black;">
+The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 microcontroller</strong></a> was designed by Intel in 1981. It is an <a href="https://en.wikipedia.org/wiki/8-bit" target="_blank"><strong>8-bit microcontroller</strong></a> built with a <a href="https://en.wikipedia.org/wiki/Dual-inline_package" target="_blank"><strong>40-pin DIP (dual inline package)</strong></a>, 4KB of <a href="https://en.wikipedia.org/wiki/Read-only_memory" target="_blank"><strong>ROM storage</strong></a>, and 128 bytes of <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="_blank"><strong>RAM storage</strong></a>. It consists of <a href="https://en.wikipedia.org/wiki/Timer" target="_blank"><strong>two 16-bit timers</strong></a> and four parallel <a href="https://en.wikipedia.org/wiki/Port_(computing)" target="_blank"><strong>8-bit ports</strong></a>, which are programmable and addressable as per the requirement.
 </p>
 
 <br/>
 <br/>
+
 
 
 ## **8051 Microcontroller Pin Diagram and Architecture**
@@ -55,12 +55,7 @@ Below is a simple representation of the **8051 Microcontroller** pin layout in a
 
 
 
-
-##   PROGRAMMING LANGUAGE FOR THE 8051:
-
-
-
-## <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/prg2.png" alt="Programming Icon" width="64" height="64" /> PROGRAMMING LANGUAGE FOR THE 8051
+## <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/prg2.png" alt="Programming Icon" width="48" height="48" /> PROGRAMMING LANGUAGE FOR THE 8051
 
 
 <p align="justify">
@@ -77,7 +72,7 @@ However, **advanced microcontrollers** now support a wider range of languages.
 
 ---
 
-### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/asm3.png" alt="Assembly Icon" width="64" height="64" /> **Assembly Language:**
+### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/asm3.png" alt="Assembly Icon" width="48" height="48" /> **Assembly Language:**
 
 - **Pros**: Direct control over hardware, highly efficient use of memory and processing.
 - **Cons**: Harder to learn and manage due to its complexity.
@@ -88,7 +83,7 @@ However, **advanced microcontrollers** now support a wider range of languages.
 
 ---
 
-### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/c2.png" alt="C Programming Icon" width="64" height="64" /> **C Language:**
+### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/c2.png" alt="C Programming Icon" width="48" height="48" /> **C Language:**
 
 
 - **Pros**: Easier to write, more flexible, and widely supported.
@@ -130,55 +125,27 @@ Modern microcontrollers, especially advanced ones, can be programmed in language
 
 ---
 
-### **Which Language Should You Choose?**
+### **Which Language Should You Choose for 8051?**
 
 <p align="justify">
-For the 8051 microcontroller, you’ll likely stick with **Assembly** or **C** for most applications. However, if you’re working with more advanced microcontrollers, consider using languages like Python or Rust for added flexibility and ease.
+For the <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 microcontroller</strong></a>, you’ll likely stick with <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank"><strong>Assembly</strong></a> or <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><strong>C</strong></a> for most applications. However, if you’re working with more advanced microcontrollers, consider using languages like <a href="https://www.python.org/" target="_blank"><strong>Python</strong></a> or <a href="https://www.rust-lang.org/" target="_blank"><strong>Rust</strong></a> for added flexibility and ease.
 </p>
 
-- **Assembly Language**: Best if you need full control over the microcontroller’s resources and performance.
-- **C Language**: Ideal for most projects due to its ease of use and balanced performance.
-- **Python and Other High-Level Languages**: Great for rapid development, but less efficient in low-level control.
-
+- <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank"><strong>Assembly Language</strong></a>: Best if you need full control over the microcontroller’s resources and performance.
+- <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><strong>C Language</strong></a>: Ideal for most projects due to its ease of use and balanced performance.
+- <a href="https://www.python.org/" target="_blank"><strong>Python</strong></a> and Other High-Level Languages: Great for rapid development, but less efficient in low-level control.
 
 #### **Recommendation:**
 
 <p align="justify">
-If you’re new to microcontroller programming, start with **Assembly** to understand the basics, then move to **C** for more complex projects. For advanced platforms, explore other languages like **Python** or **Rust** for faster development with high-level features.
+If you’re new to microcontroller programming, start with <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank"><strong>Assembly</strong></a> to understand the basics, then move to <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><strong>C</strong></a> for more complex projects. For advanced platforms, explore other languages like <a href="https://www.python.org/" target="_blank"><strong>Python</strong></a> or <a href="https://www.rust-lang.org/" target="_blank"><strong>Rust</strong></a> for faster development with high-level features.
 </p>
+
 
 ---
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p align="justify">
-Each example in this repository is a folder containing the necessary files for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
-</p>
-
----
 For Example, assume that an LED is connected to 8051 microcontroller on an I/O pin (e.g., P1.0), then here is the code for blinking the LED  of the 8051 microcontroller in both Assembly and C language shown below:
 
 ### **Assembly Code (8051)**
@@ -245,46 +212,20 @@ void delay(void) {
 - **LED = 1;** Turns the LED off.
 - **delay():** A simple delay function that uses two nested loops to create a delay.
 
-Both codes will blink an LED connected to P1.0 of the 8051 microcontroller.
+   **Both codes will blink an LED connected to P1.0 of the 8051 microcontroller.**
 
 
+<hr/>
 
 
-
-
-
-
-
-
-
-
-
-
+<p align="justify">
+Each example in this repository is a folder containing the necessary files for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
+</p>
 
 
 <br/>
-
-![8051_Assembly_Tutorials_Banner](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
-
-## ✨ **Features**
-- **Comprehensive 8051 Assembly Examples** for various peripherals
-- Ready-to-use **Proteus simulation files**
-- Well-commented **Assembly code** for easier learning
-- Practical interfacing examples like LEDs, motors, sensors, and displays
-- Tutorials on various communications among devices and more
 
 ---
-
-## 📄 **Included Files:**
-- **Assembly Code**: The code to drive the 8x8 dot matrix display using the 8051 microcontroller.
-- **Proteus Simulation Files**: Pre-built simulation to test and visualize the circuit.
-- **HEX File**: Ready-to-upload HEX code for the microcontroller.
-- **Screenshots & Photos**: Visual proof of successful testing on both Proteus and hardware.
-
----
-
-<br/>
-<br/>
 
 ## 📦 **Getting Started**
 
@@ -363,6 +304,28 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 
 ---
 <br/>
+
+
+![8051_Assembly_Tutorials_Banner](https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a)
+
+## ✨ **Features of this repository**
+- **Comprehensive 8051 Assembly Examples** for various peripherals
+- Ready-to-use **Proteus simulation files**
+- Well-commented **Assembly code** for easier learning
+- Practical interfacing examples like LEDs, motors, sensors, and displays
+- Tutorials on various communications among devices and more
+
+---
+
+## 📄 **Included Files:**
+- **Assembly Code**: The code to drive the 8x8 dot matrix display using the 8051 microcontroller.
+- **Proteus Simulation Files**: Pre-built simulation to test and visualize the circuit.
+- **HEX File**: Ready-to-upload HEX code for the microcontroller.
+- **Screenshots & Photos**: Visual proof of successful testing on both Proteus and hardware.
+
+---
+
+<br/>
 <br/>
 
 
@@ -402,10 +365,7 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Basic%20Calculator/8051%20Basic%20calculator.png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true">|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png?raw=true">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true">|
 
-
-
-
-
+---
 
 ## 🏆 **Acknowledgments**
 
@@ -422,7 +382,7 @@ A huge **thank you** to the following incredible tools and teams for making this
 ---
 
 
-## 📝 **Tasks**
+## 📝 **Upcoming Tasks**
 
 - Verify the connections based on the schematic.
 - Modify the code to display different messages.
@@ -431,14 +391,12 @@ A huge **thank you** to the following incredible tools and teams for making this
 ---
 
 # ⚙️ **Additional Informations**
-## 🔗 **Resources**
+
+### 🔗 **Resources**
 
 - **8051 Microcontroller Reference**: [Datasheet](https://www.atmel.com/products/microcontrollers/8051.aspx)
-- **LCD Datasheet**: [HD44780 LCD Controller](https://www.sparkfun.com/datasheets/LCD/HD44780.pdf)
 
 ---
-
-
 
 ### **References:**
 
@@ -452,6 +410,29 @@ A huge **thank you** to the following incredible tools and teams for making this
 ---
 
 
+## 🔗 **Connect with Me**
+
+- GitHub: [gmostofabd](https://github.com/gmostofabd)
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- Website: [melab BD](https://www.melabbd.com)
+
+## 📜 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 💬 **Contributing**
+
+Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/gmostofabd/your-repo/issues).
+
+## ⭐ **Show Support**
+
+If you find this project helpful, please give it a ⭐ to show your support!
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/gmostofabd">gmostofabd</a>
+</p>
 
 
 
