@@ -41,7 +41,7 @@ Below is a simple representation of the **8051 Microcontroller** pin layout in a
 
 | **8051 Architecture** | **Description** |
 |-----------------------|------------------|
-| ![8051 Architecture](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f130ca1d7c6e8f46c98ab73d52075b3e7ded8768/assets/images/8051Archi1.png) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Performs operations.<br>2. **Registers**: Temporary storage.<br>3. **Control Unit**: Manages execution.<br>4. **Bus System**: Component communication.<br>5. **Timer/Counters**: Timing and counting operations. |
+| ![8051 Architecture](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8c91f06977be065d33401416ffc6ee5ed12fe402/assets/images/8051_Architecture.png) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Performs operations.<br>2. **Registers**: Temporary storage.<br>3. **Control Unit**: Manages execution.<br>4. **Bus System**: Component communication.<br>5. **Timer/Counters**: Timing and counting operations. |
 
 </div>
 
