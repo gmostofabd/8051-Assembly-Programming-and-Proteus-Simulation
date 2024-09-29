@@ -25,6 +25,8 @@ Welcome to the **8051 Microcontroller Tutorials** repository! This repository co
 8051 microcontroller is designed by Intel in 1981. It is an 8-bit microcontroller. It is built with 40 pins DIP (dual inline package), 4kb of ROM storage and 128 bytes of RAM storage, 2 16-bit timers. It consists of are four parallel 8-bit ports, which are programmable as well as addressable as per the requirement.
 </p>
 
+<br/>
+<br/>
 
 
 ## **8051 Microcontroller Pin Diagram and Architecture**
@@ -35,21 +37,30 @@ Below is a simple representation of the **8051 Microcontroller** pin layout in a
 
 | **Pin Diagram** | **Description** |
 |------------------|------------------|
-| ![Pin Diagram](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec6050cb2e0411d0256bd78a20cd277847db8a21/assets/images/805111.png) | **Pin Number**<br>1. **P1.0**: Port 1 Bit 0, an I/O pin.<br>2. **P1.1**: Port 1 Bit 1, an I/O pin.<br>3. **P1.2**: Port 1 Bit 2, an I/O pin.<br>4. **P1.3**: Port 1 Bit 3, an I/O pin.<br>5. **P1.4**: Port 1 Bit 4, an I/O pin.<br>6. **P1.5**: Port 1 Bit 5, an I/O pin.<br>7. **P1.6**: Port 1 Bit 6, an I/O pin.<br>8. **P1.7**: Port 1 Bit 7, an I/O pin.<br>9. **RST**: Reset pin to initialize the microcontroller.<br>10. **P3.0**: Port 3 Bit 0, an I/O pin.<br>11. **P3.1**: Port 3 Bit 1, an I/O pin.<br>12. **P3.2**: Port 3 Bit 2, an I/O pin.<br>13. **P3.3**: Port 3 Bit 3, an I/O pin.<br>14. **P3.4**: Port 3 Bit 4, an I/O pin.<br>15. **P3.5**: Port 3 Bit 5, an I/O pin.<br>16. **P3.6**: Port 3 Bit 6, an I/O pin.<br>17. **P3.7**: Port 3 Bit 7, an I/O pin.<br>18. **XTAL2**: Crystal oscillator output.<br>19. **XTAL1**: Crystal oscillator input.<br>20. **GND**: Ground pin.<br>21. **P2.0**: Port 2 Bit 0, an I/O pin.<br>22. **P2.1**: Port 2 Bit 1, an I/O pin.<br>23. **P2.2**: Port 2 Bit 2, an I/O pin.<br>24. **P2.3**: Port 2 Bit 3, an I/O pin.<br>25. **P2.4**: Port 2 Bit 4, an I/O pin.<br>26. **P2.5**: Port 2 Bit 5, an I/O pin.<br>27. **P2.6**: Port 2 Bit 6, an I/O pin.<br>28. **P2.7**: Port 2 Bit 7, an I/O pin.<br>29. **PSEN**: Program Store Enable, used to read from external program memory.<br>30. **ALE**: Address Latch Enable.<br>31. **EA**: External Access pin for interfacing external memory.<br>32. **P0.7**: Port 0 Bit 7, an I/O pin.<br>33. **P0.6**: Port 0 Bit 6, an I/O pin.<br>34. **P0.5**: Port 0 Bit 5, an I/O pin.<br>35. **P0.4**: Port 0 Bit 4, an I/O pin.<br>36. **P0.3**: Port 0 Bit 3, an I/O pin.<br>37. **P0.2**: Port 0 Bit 2, an I/O pin.<br>38. **P0.1**: Port 0 Bit 1, an I/O pin.<br>39. **P0.0**: Port 0 Bit 0, an I/O pin.<br>40. **VCC**: Supply voltage pin. |
+| ![Pin Diagram](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec6050cb2e0411d0256bd78a20cd277847db8a21/assets/images/805111.png) | **Pin Number**<br>1. **P1.0** to **P1.7**: I/O pins.<br>2. **RST**: Reset pin.<br>3. **P3.0** to **P3.7**: I/O pins.<br>4. **XTAL1, XTAL2**: Oscillator pins.<br>5. **GND**: Ground.<br>6. **P2.0** to **P2.7**: I/O pins.<br>7. **PSEN**: Program Store Enable.<br>8. **ALE**: Address Latch Enable.<br>9. **EA**: External Access.<br>10. **P0.0** to **P0.7**: I/O pins.<br>11. **VCC**: Power supply. |
 
 | **8051 Architecture** | **Description** |
 |-----------------------|------------------|
-| ![8051 Architecture](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/ec6050cb2e0411d0256bd78a20cd277847db8a21/assets/images/8051Archi1.png) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Arithmetic Logic Unit for performing operations.<br>2. **Registers**: Temporary storage for data and instructions.<br>3. **Control Unit**: Manages the execution of instructions.<br>4. **Bus System**: Facilitates communication between components.<br>5. **Timer/Counters**: Used for timing operations and event counting. |
+| ![8051 Architecture](https://via.placeholder.com/150x200.png?text=8051+Architecture) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Performs operations.<br>2. **Registers**: Temporary storage.<br>3. **Control Unit**: Manages execution.<br>4. **Bus System**: Component communication.<br>5. **Timer/Counters**: Timing and counting operations. |
 
 </div>
 
 ### **Key Pin Functions:**
-- **P0, P1, P2, P3:** These are **8-bit bidirectional I/O ports**.
-- **RST:** **Reset pin** for initializing the microcontroller.
-- **EA:** **External Access pin** for interfacing external memory.
+- **P0, P1, P2, P3:** **8-bit bidirectional I/O ports**.
+- **RST:** **Reset pin**.
+- **EA:** **External Access**.
 - **ALE:** **Address Latch Enable**.
-- **PSEN:** **Program Store Enable** for reading from external program memory.
-- **XTAL1 and XTAL2:** **Pins** for connecting the external oscillator.
+- **PSEN:** **Program Store Enable**.
+- **XTAL1 and XTAL2:** **Oscillator pins**.
+
+```
+
+<br/>
+<br/>
+
+
+
+
 
 
 ##   PROGRAMMING LANGUAGE FOR THE 8051:
