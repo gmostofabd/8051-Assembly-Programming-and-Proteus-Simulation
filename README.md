@@ -59,7 +59,9 @@ Below is a simple representation of the **8051 Microcontroller** pin layout in a
 ##   PROGRAMMING LANGUAGE FOR THE 8051:
 
 
-## ![Programming Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Programming_languages_used_in_most_popular_websites.png/320px-Programming_languages_used_in_most_popular_websites.png) PROGRAMMING LANGUAGE FOR THE 8051
+
+## <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/prg2.png" alt="Programming Icon" width="64" height="64" /> PROGRAMMING LANGUAGE FOR THE 8051
+
 
 <p align="justify">
 If you're interested in programming, you've likely already used a <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank"><strong>programming language</strong></a> to write or compile code. If not, it's a good idea to start with the basics before diving into microcontrollers. Writing code for the <a href="https://en.wikipedia.org/wiki/Intel_MCS-51" target="_blank"><strong>8051 Microcontroller</strong></a> is similar to general programming. Once you’ve chosen a language, you set up the development environment, and you're good to go!
@@ -75,7 +77,7 @@ However, **advanced microcontrollers** now support a wider range of languages.
 
 ---
 
-### ![Assembly Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Chip_logo.svg/120px-Chip_logo.svg.png) **Assembly Language:**
+### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/asm3.png" alt="Assembly Icon" width="64" height="64" /> **Assembly Language:**
 
 - **Pros**: Direct control over hardware, highly efficient use of memory and processing.
 - **Cons**: Harder to learn and manage due to its complexity.
@@ -86,7 +88,8 @@ However, **advanced microcontrollers** now support a wider range of languages.
 
 ---
 
-### ![C Programming Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png) **C Language:**
+### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/c2.png" alt="C Programming Icon" width="64" height="64" /> **C Language:**
+
 
 - **Pros**: Easier to write, more flexible, and widely supported.
 - **Cons**: Less control over hardware compared to Assembly.
