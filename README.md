@@ -459,21 +459,21 @@ Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. I
       <a href="https://gmostofabd.github.io/8051-LED/">
         <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 1: LED Blink</strong></p>
+      <p><strong>Exp. 1: 8051 LED</strong></p>
       <p>This experiment demonstrates how to blink an LED using the 8051 microcontroller.</p>
     </td>
     <td align="center" style="vertical-align: center;">
       <a href="https://gmostofabd.github.io/8051-Push-Button/">
         <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 2: Push Button Interfacing</strong></p>
+      <p><strong>Exp. 2: Push Button Interfacing</strong></p>
       <p>Learn how to interface a push button with the 8051 to control outputs.</p>
     </td>
     <td align="center" style="vertical-align: bottom;">
       <a href="https://gmostofabd.github.io/8051-7Segment/">
         <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 3: Seven Segment Display</strong></p>
+      <p><strong>Exp. 3: Seven Segment Display</strong></p>
       <p>Discover how to interface and display numbers on a seven-segment display.</p>
     </td>
   </tr>
