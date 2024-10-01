@@ -385,8 +385,30 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
    - **MIDE-51 IDE**: 
      - Knowledge of how to write, compile, and debug Assembly code in MIDE-51.
      - Familiarity with HEX file generation and loading into simulators or hardware.
-    
+
 ---
+
+### 5. **The Programmer USBasp**
+
+<p align="justify">
+The **USBasp** is a widely-used, open-source programmer that enables seamless interfacing between a computer and various microcontrollers, including the **8051 series**. It was developed by Thomas Fischl and is known for being **affordable, easy-to-use**, and **compatible with multiple microcontroller architectures**.
+</p>
+
+#### Key Features:
+- **Supports ISP (In-System Programming)**
+- **Open-source and customizable**
+- **Fast data transfer**
+- **Cross-platform support**
+- **Wide microcontroller support**
+
+#### Setup and Use:
+1. **USBasp Programmer**: Physical device to connect your PC to the microcontroller.
+2. **AVRDude**: A command-line tool to upload the compiled Assembly or C code (.hex files).
+3. **Driver Installation**: Use **Zadig** for Windows driver setup.
+
+---
+
+
 
 
 ### ⚗️ Best Assembler for 8051: MIDE-51
@@ -408,31 +430,6 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
 Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. Its user-friendly design, robust debugging tools, and support for multiple devices make it suitable for both beginners and advanced users. Whether you're working on a simple project or a complex application, MIDE-51 can meet your development needs effectively.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## **Requirements:**
 
 ### **Software:**
@@ -447,8 +444,6 @@ Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. I
 
 ---
 <br/>
-
-
 
 
 <br/>
@@ -507,7 +502,6 @@ A huge **thank you** to the following incredible tools and teams for making this
 
 ---
 
-
 ## 📝 **Upcoming Tasks**
 
 - Verify the connections based on the schematic.
@@ -523,25 +517,7 @@ A huge **thank you** to the following incredible tools and teams for making this
 - **8051 Microcontroller Reference**: [Datasheet](https://www.atmel.com/products/microcontrollers/8051.aspx)
 
 ---
-### 5. **The Programmer USBasp**
 
-<p align="justify">
-The **USBasp** is a widely-used, open-source programmer that enables seamless interfacing between a computer and various microcontrollers, including the **8051 series**. It was developed by Thomas Fischl and is known for being **affordable, easy-to-use**, and **compatible with multiple microcontroller architectures**.
-</p>
-
-#### Key Features:
-- **Supports ISP (In-System Programming)**
-- **Open-source and customizable**
-- **Fast data transfer**
-- **Cross-platform support**
-- **Wide microcontroller support**
-
-#### Setup and Use:
-1. **USBasp Programmer**: Physical device to connect your PC to the microcontroller.
-2. **AVRDude**: A command-line tool to upload the compiled Assembly or C code (.hex files).
-3. **Driver Installation**: Use **Zadig** for Windows driver setup.
-
----
 <br/>
 <br/>
 
@@ -581,6 +557,4 @@ If you find this project helpful, please give it a ⭐ to show your support!
 <p align="center">
   Made with ❤️ by <a href="https://github.com/gmostofabd">gmostofabd</a>
 </p>
-
-
 
