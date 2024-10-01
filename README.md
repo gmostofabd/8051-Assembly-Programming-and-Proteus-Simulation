@@ -218,16 +218,14 @@ void delay(void) {
 <hr/>
 
 
+
+## 📦 **Getting Started**
+
 <p align="justify">
 Each example in this repository is a folder containing the necessary files for programming the **8051 microcontroller** in Assembly, simulating it using **Proteus**, and downloading the compiled program to hardware via **avrdudes**.
 </p>
 
-
-<br/>
-
 ---
-
-## 📦 **Getting Started**
 
 ### **Prerequisites:**
 
@@ -268,27 +266,6 @@ For a beginner to work with the examples in your **8051 Microcontroller Tutorial
     
 ---
 
-### 5. **The Programmer USBasp**
-
-<p align="justify">
-The **USBasp** is a widely-used, open-source programmer that enables seamless interfacing between a computer and various microcontrollers, including the **8051 series**. It was developed by Thomas Fischl and is known for being **affordable, easy-to-use**, and **compatible with multiple microcontroller architectures**.
-</p>
-
-#### Key Features:
-- **Supports ISP (In-System Programming)**
-- **Open-source and customizable**
-- **Fast data transfer**
-- **Cross-platform support**
-- **Wide microcontroller support**
-
-#### Setup and Use:
-1. **USBasp Programmer**: Physical device to connect your PC to the microcontroller.
-2. **AVRDude**: A command-line tool to upload the compiled Assembly or C code (.hex files).
-3. **Driver Installation**: Use **Zadig** for Windows driver setup.
-
----
-<br/>
-<br/>
 
 ## **Requirements:**
 
@@ -397,6 +374,28 @@ A huge **thank you** to the following incredible tools and teams for making this
 - **8051 Microcontroller Reference**: [Datasheet](https://www.atmel.com/products/microcontrollers/8051.aspx)
 
 ---
+### 5. **The Programmer USBasp**
+
+<p align="justify">
+The **USBasp** is a widely-used, open-source programmer that enables seamless interfacing between a computer and various microcontrollers, including the **8051 series**. It was developed by Thomas Fischl and is known for being **affordable, easy-to-use**, and **compatible with multiple microcontroller architectures**.
+</p>
+
+#### Key Features:
+- **Supports ISP (In-System Programming)**
+- **Open-source and customizable**
+- **Fast data transfer**
+- **Cross-platform support**
+- **Wide microcontroller support**
+
+#### Setup and Use:
+1. **USBasp Programmer**: Physical device to connect your PC to the microcontroller.
+2. **AVRDude**: A command-line tool to upload the compiled Assembly or C code (.hex files).
+3. **Driver Installation**: Use **Zadig** for Windows driver setup.
+
+---
+<br/>
+<br/>
+
 
 ### **References:**
 
