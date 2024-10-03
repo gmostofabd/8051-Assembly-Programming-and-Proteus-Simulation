@@ -1,25 +1,27 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="80%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/e397c8bc4caf73216929a2c09d490499874b04c1/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
 </p>
 
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
 </p>
 
----
-
-<p align="justify">
-  **Welcome to the 8051 Microcontroller Tutorials Repository!**  
+<div style="font-size: 2.5em; text-align: justify;">
+  <strong>Welcome to the 8051 Microcontroller Tutorials Repository!</strong><br>
   This repository offers a comprehensive collection of tutorials and practical examples focused on programming 
-  **[ATMEL 8051 Series Microcontrollers](https://www.microchip.com/en-us/product/AT89S51)** 
-  such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**.  
-  Each example is simulated in **[Proteus](https://www.labcenter.com/)** and, in most cases, verified on real hardware, making it ideal for both 
-  **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
-</p>
+  <a href="https://www.microchip.com/en-us/product/AT89S51" style="color: blue;">ATMEL 8051 Series Microcontrollers</a> 
+  such as <strong>AT89C51</strong>, <strong>AT89S51</strong>, and <strong>AT89S52</strong>, using <strong>Assembly Language</strong>.<br>
+  Each example is simulated in <a href="https://www.labcenter.com/" style="color: blue;">Proteus</a> and, in most cases, verified on real hardware, making it ideal for both 
+  <strong>beginners</strong> and <strong>enthusiasts</strong> looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+</div>
+
 <br/>
 <br/>
 
 ---
+
+<br/>
+
 
 ## ✨ **Features of this Repository**
 
@@ -35,6 +37,8 @@
 <br/>
 
 ---
+
+<br/>
 
 
   ## 📄 **Included Files:**
@@ -64,6 +68,10 @@
 
 ---
 
+
+<br/>
+
+
 ## 🚀 **Overview**
 <p align="justify" style="background-color: white; color: black;">
 The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 microcontroller</strong></a> was designed by Intel in 1981. It is an <a href="https://en.wikipedia.org/wiki/8-bit" target="_blank"><strong>8-bit microcontroller</strong></a> built with a <a href="https://en.wikipedia.org/wiki/Dual-inline_package" target="_blank"><strong>40-pin DIP (dual inline package)</strong></a>, 4KB of <a href="https://en.wikipedia.org/wiki/Read-only_memory" target="_blank"><strong>ROM storage</strong></a>, and 128 bytes of <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="_blank"><strong>RAM storage</strong></a>. It consists of <a href="https://en.wikipedia.org/wiki/Timer" target="_blank"><strong>two 16-bit timers</strong></a> and four parallel <a href="https://en.wikipedia.org/wiki/Port_(computing)" target="_blank"><strong>8-bit ports</strong></a>, which are programmable and addressable as per the requirement.
@@ -73,6 +81,9 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 <br/>
 
 ---
+
+<br/>
+
 
 ## 📊 **8051 Microcontroller Pin Diagram and Architecture**
 
@@ -120,6 +131,7 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 </div>
 
+<br/>
 
 
 
@@ -149,9 +161,12 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
   These are the **Oscillator pins** used to connect an external crystal or resonator for clock generation. **XTAL1** is the input to the inverting oscillator amplifier, and **XTAL2** is the output.  
   Learn more: [Oscillator Connections in 8051](https://microcontrollerslab.com/oscillator-pins-8051-microcontroller/)
 
+<br/>
+
+
 ---
 
-## Minimum Circuit to Activate 8051 Microcontroller
+## ✨ Minimum Circuit to Activate 8051 Microcontroller ✨
 
 | **Circuit Diagram**                                                                                                                                                                                                                                      | **Key Components**                                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -159,6 +174,9 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 
 <hr/>
+
+
+<br/>
 
 
 
@@ -236,6 +254,8 @@ Modern microcontrollers, especially advanced ones, can be programmed in language
 
 ---
 
+<br/>
+
 ### **Which Language Should You Choose for 8051?**
 
 <p align="justify">
@@ -254,8 +274,6 @@ If you’re new to microcontroller programming, start with <a href="https://en.w
 
 
 ---
-
-
 
 For Example, assume that an LED is connected to 8051 microcontroller on an I/O pin (e.g., P1.0), then here is the code for blinking the LED  of the 8051 microcontroller in both Assembly and C language shown below:
 
@@ -338,6 +356,9 @@ Each example in this repository is a folder containing the necessary files for p
 
 ---
 
+<br/>
+
+
 ### **Prerequisites:**
 
 For a beginner to work with the examples in your **8051 Microcontroller Tutorials** repository, the following prerequisites would be helpful:
@@ -399,6 +420,9 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 
 
 
+<br/>
+
+
 
 ### ⚗️ Best Assembler for 8051: MIDE-51
 
@@ -417,6 +441,13 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 6. **Cost-Effective**: MIDE-51 is available as a free version with essential features, making it an economical choice for hobbyists and educational purposes. The professional version offers additional features at a reasonable price, ensuring value for money.
 
 Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. Its user-friendly design, robust debugging tools, and support for multiple devices make it suitable for both beginners and advanced users. Whether you're working on a simple project or a complex application, MIDE-51 can meet your development needs effectively.
+
+
+<br/>
+
+---
+
+<br/>
 
 
 ## **Requirements:**
@@ -546,4 +577,3 @@ If you find this project helpful, please give it a ⭐ to show your support!
 <p align="center">
   Made with ❤️ by <a href="https://github.com/gmostofabd">gmostofabd</a>
 </p>
-
