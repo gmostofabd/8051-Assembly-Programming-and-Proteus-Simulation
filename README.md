@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/2a768396b25059b7303a2b447a87e4fea0f106a1/assets/images/ATMEL%208051%20Tutorials_Banner_x3.gif" alt="8051 Microcontroller Tutorials Banner" width="70%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/876c6f42477c2a53b4a78e7dffa4a94b80299c16/assets/images/ATMEL%208051%20Tutorials_Banner_x4.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
 </p>
-
 
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
