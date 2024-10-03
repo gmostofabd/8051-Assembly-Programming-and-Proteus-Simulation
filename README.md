@@ -1,21 +1,20 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="80%">
+  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="90%">
 </p>
 
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
 </p>
 
-
-
-<p align="justify">
-  **Welcome to the 8051 Microcontroller Tutorials Repository!**  
+<div style="font-size: 2.5em; text-align: justify;">
+  <strong>Welcome to the 8051 Microcontroller Tutorials Repository!</strong><br>
   This repository offers a comprehensive collection of tutorials and practical examples focused on programming 
-  **[ATMEL 8051 Series Microcontrollers](https://www.microchip.com/en-us/product/AT89S51)** 
-  such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**.  
-  Each example is simulated in **[Proteus](https://www.labcenter.com/)** and, in most cases, verified on real hardware, making it ideal for both 
-  **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
-</p>
+  <a href="https://www.microchip.com/en-us/product/AT89S51" style="color: blue;">ATMEL 8051 Series Microcontrollers</a> 
+  such as <strong>AT89C51</strong>, <strong>AT89S51</strong>, and <strong>AT89S52</strong>, using <strong>Assembly Language</strong>.<br>
+  Each example is simulated in <a href="https://www.labcenter.com/" style="color: blue;">Proteus</a> and, in most cases, verified on real hardware, making it ideal for both 
+  <strong>beginners</strong> and <strong>enthusiasts</strong> looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+</div>
+
 <br/>
 <br/>
 
@@ -132,10 +131,8 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 </div>
 
-
-
-
 <br/>
+
 
 
 ### **Key Pin Functions:**
