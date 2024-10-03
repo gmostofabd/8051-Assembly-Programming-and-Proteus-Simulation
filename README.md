@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="60%">
+  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="80%">
 </p>
 
 <p align="center">
@@ -8,8 +8,16 @@
 
 ---
 
-**Welcome to the 8051 Microcontroller Tutorials Repository!**  
-This repository offers a comprehensive collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**. Each example is simulated in **Proteus** and, in most cases, verified on real hardware, making it ideal for both **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+<p align="justify">
+  **Welcome to the 8051 Microcontroller Tutorials Repository!**  
+  This repository offers a comprehensive collection of tutorials and practical examples focused on programming 
+  **[ATMEL 8051 Series Microcontrollers](https://www.microchip.com/en-us/product/AT89S51)** 
+  such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**.  
+  Each example is simulated in **[Proteus](https://www.labcenter.com/)** and, in most cases, verified on real hardware, making it ideal for both 
+  **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+</p>
+<br/>
+<br/>
 
 ---
 
@@ -23,30 +31,38 @@ This repository offers a comprehensive collection of tutorials and practical exa
 - **Links and Guides:** Includes essential references and links to help **learners** and enthusiasts further explore and learn from the best resources.
 - **Multiple Versions for Learning:** Some folders may contain multiple versions of the same files, showcasing alternative methods, cross-logic explanations, or feature variations to enhance understanding.
 
----
-
-
-## 📄 **Included Files:**
-
-- **Assembly Code**: Source code for each specific 8051 example, available in `.asm` format.
-- **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format to test and visualize the circuit.
-- **HEX File**: Precompiled **HEX** file (`.hex`) ready to be uploaded directly to the microcontroller.
-- **Screenshots & Photos**: Visual proof of successful testing on both **Proteus** and real hardware, typically in `.png` or `.jpg` formats.
+<br/>
+<br/>
 
 ---
 
-<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers bellow: </strong></p>
+
+  ## 📄 **Included Files:**
+
+  - **Assembly Code**: Source code for each specific 8051 example, available in `.asm` format.
+  - **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format to test and visualize the circuit.
+  - **HEX File**: Precompiled **HEX** file (`.hex`) ready to be uploaded directly to the microcontroller.
+  - **Screenshots & Photos**: Visual proof of successful testing on both **Proteus** and real hardware, typically in `.png` or `.jpg` formats.
+  
+  > **Note:** Make sure to have the correct versions of **Proteus** and **ATMEL 8051 Microcontroller Toolchain** installed in your system for seamless simulation and compilation. You can find links to download these tools in the repository's **Setup Instructions** section.
+  
+
+<br/>
+<br/>
+
+---
+
+<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers below: </strong></p>
 <br/>
 
 | ![Proteus ISIS](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/89S52_400x400.png?raw=true) | ![Proteus ARES](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/asmCode.png?raw=true) | ![3D CAD Models](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/8051LCDx1.png?raw=true) |
 | :--: | :--: | :--: |
 | **8051 Microntroller** | **Assembly Code** | **Circuit Schematic** |
 
----
-
-
-
 <br/>
+<br/>
+
+---
 
 ## 🚀 **Overview**
 <p align="justify" style="background-color: white; color: black;">
@@ -56,19 +72,51 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 <br/>
 <br/>
 
+---
 
-
-## **8051 Microcontroller Pin Diagram and Architecture**
+## 📊 **8051 Microcontroller Pin Diagram and Architecture**
 
 <div align="center">
 
-| **Pin Diagram** | **Description** |
-|------------------|------------------|
-| ![Pin Diagram](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/5de037b5ac643153ca76238f1a3bf84399f4a651/assets/images/8051_Pinout.png) | **Pin Number**<br>1. **P1.0** to **P1.7**: I/O pins.<br>2. **RST**: Reset pin.<br>3. **P3.0** to **P3.7**: I/O pins.<br>4. **XTAL1, XTAL2**: Oscillator pins.<br>5. **GND**: Ground.<br>6. **P2.0** to **P2.7**: I/O pins.<br>7. **PSEN**: Program Store Enable.<br>8. **ALE**: Address Latch Enable.<br>9. **EA**: External Access.<br>10. **P0.0** to **P0.7**: I/O pins.<br>11. **VCC**: Power supply. |
-
-| **8051 Architecture** | **Description** |
-|-----------------------|------------------|
-| ![8051 Architecture](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8c91f06977be065d33401416ffc6ee5ed12fe402/assets/images/8051_Architecture.png) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Performs operations.<br>2. **Registers**: Temporary storage.<br>3. **Control Unit**: Manages execution.<br>4. **Bus System**: Component communication.<br>5. **Timer/Counters**: Timing and counting operations. |
+<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+  <tr>
+    <th style="width: 50%; text-align: center;">**Pin Diagram**</th>
+    <th style="width: 50%; text-align: center;">**Description**</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/5de037b5ac643153ca76238f1a3bf84399f4a651/assets/images/8051_Pinout.png" alt="Pin Diagram" style="width: 90%; max-width: 300px; height: auto;">
+    </td>
+    <td style="text-align: left;">
+      <strong>Pin Number</strong><br>
+      1. <strong>P1.0</strong> to <strong>P1.7</strong>: I/O pins.<br>
+      2. <strong>RST</strong>: Reset pin.<br>
+      3. <strong>P3.0</strong> to <strong>P3.7</strong>: I/O pins.<br>
+      4. <strong>XTAL1, XTAL2</strong>: Oscillator pins.<br>
+      5. <strong>GND</strong>: Ground.<br>
+      6. <strong>P2.0</strong> to <strong>P2.7</strong>: I/O pins.<br>
+      7. <strong>PSEN</strong>: Program Store Enable.<br>
+      8. <strong>ALE</strong>: Address Latch Enable.<br>
+      9. <strong>EA</strong>: External Access.<br>
+      10. <strong>P0.0</strong> to <strong>P0.7</strong>: I/O pins.<br>
+      11. <strong>VCC</strong>: Power supply.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8c91f06977be065d33401416ffc6ee5ed12fe402/assets/images/8051_Architecture.png" alt="8051 Architecture" style="width: 90%; max-width: 300px; height: auto;">
+    </td>
+    <td style="text-align: left;">
+      <strong>Architecture Overview</strong><br>
+      The <strong>8051 microcontroller architecture</strong> consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>
+      1. <strong>ALU</strong>: Performs operations.<br>
+      2. <strong>Registers</strong>: Temporary storage.<br>
+      3. <strong>Control Unit</strong>: Manages execution.<br>
+      4. <strong>Bus System</strong>: Component communication.<br>
+      5. <strong>Timer/Counters</strong>: Timing and counting operations.
+    </td>
+  </tr>
+</table>
 
 </div>
 
