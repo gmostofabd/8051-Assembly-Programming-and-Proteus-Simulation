@@ -1,71 +1,63 @@
-
-
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
 </p>
-
-
 
 <p align="center">
   <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
 </p>
 
-
-
-
-<div style="font-size: 2.5em; text-align: justify;">
+<div style="font-size: 1.5em; text-align: justify;">
   <strong>Welcome to the 8051 Microcontroller Tutorials Repository!</strong><br>
-  This repository offers a comprehensive collection of tutorials and practical examples focused on programming 
-  <a href="https://www.microchip.com/en-us/product/AT89S51" style="color: blue;">ATMEL 8051 Series Microcontrollers</a> 
-  such as <strong>AT89C51</strong>, <strong>AT89S51</strong>, and <strong>AT89S52</strong>, using <strong>Assembly Language</strong>.<br>
-  Each example is simulated in <a href="https://www.labcenter.com/" style="color: blue;">Proteus</a> and, in most cases, verified on real hardware, making it ideal for both 
+  This repository offers a comprehensive collection of tutorials and practical examples focused on programming <a href="https://www.microchip.com/en-us/product/AT89S51" style="color: blue;">ATMEL 8051 Series Microcontrollers</a> such as <strong>AT89C51</strong>, <strong>AT89S51</strong>, and <strong>AT89S52</strong>, using <strong>Assembly Language</strong>. Each example is simulated in<a href="https://www.labcenter.com/" style="color: blue;">Proteus</a> and, in most cases, verified on real hardware, making it ideal for both 
   <strong>beginners</strong> and <strong>enthusiasts</strong> looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
 </div>
 
 <br/>
-<br/>
 
 ---
 
 <br/>
-
-
-## ✨ **Features of this Repository**
-
-- **8051 Series Microcontrollers:** Learn to program **AT89C51**, **AT89S51**, and **AT89S52** microcontrollers.
-- **Assembly Language Programming:** Tutorials are written in **Assembly Language** (.asm), providing hands-on experience with low-level programming.
-- **Proteus Simulation:** Simulate circuits and test the code before deploying it on real hardware using **Proteus** (.pdsprj).
-- **Hardware Verification:** Many examples are tested on real hardware to ensure the simulations' accuracy.
-- **Beginner-Friendly:** Perfect for **beginners** and enthusiasts looking to grasp the fundamentals of 8051 microcontroller programming and simulation.
-- **Links and Guides:** Includes essential references and links to help **learners** and enthusiasts further explore and learn from the best resources.
-- **Multiple Versions for Learning:** Some folders may contain multiple versions of the same files, showcasing alternative methods, cross-logic explanations, or feature variations to enhance understanding.
-
-<br/>
-<br/>
-
----
-
 <br/>
 
 <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="70%">
 </p>
 
-
-  ## 📄 **Included Files:**
-
-  - **Assembly Code**: Source code for each specific 8051 example, available in `.asm` format.
-  - **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format to test and visualize the circuit.
-  - **HEX File**: Precompiled **HEX** file (`.hex`) ready to be uploaded directly to the microcontroller.
-  - **Screenshots & Photos**: Visual proof of successful testing on both **Proteus** and real hardware, typically in `.png` or `.jpg` formats.
-  
-  > **Note:** Make sure to have the correct versions of **Proteus** and **ATMEL 8051 Microcontroller Toolchain** installed in your system for seamless simulation and compilation. You can find links to download these tools in the repository's **Setup Instructions** section.
-  
-
 <br/>
+<br/>
+
+<hr/>
+
+## ✨ **Features of this Repository**
+
+<table>
+  <tr>
+    <td width="30%" align="center">
+      <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+    </td>
+    <td width="70%" style="vertical-align: top; padding-left: 20px;">
+      <h3>Features:</h3>
+      <ul>
+        <li><strong>8051 Series Microcontrollers:</strong> Learn to program <strong>AT89C51</strong>, <strong>AT89S51</strong>, and <strong>AT89S52</strong> microcontrollers.</li>
+        <li><strong>Assembly Language Programming:</strong> Tutorials are written in <strong>Assembly Language</strong> (.asm), providing hands-on experience with low-level programming.</li>
+        <li><strong>Proteus Simulation:</strong> Simulate circuits and test the code before deploying it on real hardware using <strong>Proteus</strong> (.pdsprj).</li>
+        <li><strong>Hardware Verification:</strong> Many examples are tested on real hardware to ensure the simulations' accuracy.</li>
+        <li><strong>Beginner-Friendly:</strong> Perfect for <strong>beginners</strong> and enthusiasts looking to grasp the fundamentals of 8051 microcontroller programming and simulation.</li>
+        <li><strong>Links and Guides:</strong> Includes essential references and links to help <strong>learners</strong> and enthusiasts further explore and learn from the best resources.</li>
+        <li><strong>Multiple Versions for Learning:</strong> Some folders may contain multiple versions of the same files, showcasing alternative methods, cross-logic explanations, or feature variations to enhance understanding.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 <br/>
 
 ---
+
+ <br/>
+<br/>
+
+## 📄 **Included Files:**
 
 <p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers below: </strong></p>
 <br/>
@@ -77,7 +69,21 @@
 <br/>
 <br/>
 
+- 🔧 **Assembly Code**: Source code for each specific **8051 example**, available in `.asm` format for hands-on learning.
+- 🖥️ **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format, allowing you to **test** and **visualize** the circuit before hardware implementation.
+- 📦 **HEX File**: Precompiled **HEX** file (`.hex`), ready for direct upload to the **microcontroller**.
+- 📸 **Screenshots & Photos**: Visual documentation, showcasing successful testing on both **Proteus** and real hardware, typically available in `.png` or `.jpg` formats.
+
+> **Note:**  
+> Ensure that you have the correct versions of:
+> - **[Proteus](https://www.labcenter.com/downloads/)** 
+> - **ATMEL 8051 Microcontroller Toolchain**  
+> installed on your system for smooth simulation and compilation.
+>  
+> You can find the setup instructions and download links in the repository's **[Setup Instructions](#setup-instructions)** section.
+
 ---
+
 
 <br/>
 
