@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="90%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/6bd19df8c13e6a8c8d9bf211662d1675eb235de0/assets/images/8051_Assembly)Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
 </p>
 
 <p align="center">
