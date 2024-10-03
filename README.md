@@ -1,10 +1,22 @@
 <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/2a768396b25059b7303a2b447a87e4fea0f106a1/assets/images/ATMEL%208051%20Tutorials_Banner_x3.gif" alt="8051 Microcontroller Tutorials Banner" width="70%">
 </p>
+
 
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
 </p>
+
+<p align="center">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+</p>
+
+
+
+
+
+
+
 
 <div style="font-size: 2.5em; text-align: justify;">
   <strong>Welcome to the 8051 Microcontroller Tutorials Repository!</strong><br>
