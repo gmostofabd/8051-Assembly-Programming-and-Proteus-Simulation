@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="60%">
+  <img src="https://github.com/user-attachments/assets/678d0c2d-5013-42d0-b386-b5f26191e00a" alt="8051 Microcontroller Tutorials Banner" width="80%">
 </p>
 
 <p align="center">
@@ -8,8 +8,16 @@
 
 ---
 
-**Welcome to the 8051 Microcontroller Tutorials Repository!**  
-This repository offers a comprehensive collection of tutorials and practical examples focused on programming **ATMEL 8051 Series Microcontrollers** such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**. Each example is simulated in **Proteus** and, in most cases, verified on real hardware, making it ideal for both **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+<p align="justify">
+  **Welcome to the 8051 Microcontroller Tutorials Repository!**  
+  This repository offers a comprehensive collection of tutorials and practical examples focused on programming 
+  **[ATMEL 8051 Series Microcontrollers](https://www.microchip.com/en-us/product/AT89S51)** 
+  such as **AT89C51**, **AT89S51**, and **AT89S52**, using **Assembly Language**.  
+  Each example is simulated in **[Proteus](https://www.labcenter.com/)** and, in most cases, verified on real hardware, making it ideal for both 
+  **beginners** and **enthusiasts** looking to learn the fundamentals of 8051 programming, circuit simulation, and customization.
+</p>
+<br/>
+<br/>
 
 ---
 
@@ -23,30 +31,38 @@ This repository offers a comprehensive collection of tutorials and practical exa
 - **Links and Guides:** Includes essential references and links to help **learners** and enthusiasts further explore and learn from the best resources.
 - **Multiple Versions for Learning:** Some folders may contain multiple versions of the same files, showcasing alternative methods, cross-logic explanations, or feature variations to enhance understanding.
 
----
-
-
-## 📄 **Included Files:**
-
-- **Assembly Code**: Source code for each specific 8051 example, available in `.asm` format.
-- **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format to test and visualize the circuit.
-- **HEX File**: Precompiled **HEX** file (`.hex`) ready to be uploaded directly to the microcontroller.
-- **Screenshots & Photos**: Visual proof of successful testing on both **Proteus** and real hardware, typically in `.png` or `.jpg` formats.
+<br/>
+<br/>
 
 ---
 
-<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers bellow: </strong></p>
+
+  ## 📄 **Included Files:**
+
+  - **Assembly Code**: Source code for each specific 8051 example, available in `.asm` format.
+  - **Proteus Simulation Files**: Pre-built simulation files in `.pdsprj` format to test and visualize the circuit.
+  - **HEX File**: Precompiled **HEX** file (`.hex`) ready to be uploaded directly to the microcontroller.
+  - **Screenshots & Photos**: Visual proof of successful testing on both **Proteus** and real hardware, typically in `.png` or `.jpg` formats.
+  
+  > **Note:** Make sure to have the correct versions of **Proteus** and **ATMEL 8051 Microcontroller Toolchain** installed in your system for seamless simulation and compilation. You can find links to download these tools in the repository's **Setup Instructions** section.
+  
+
+<br/>
+<br/>
+
+---
+
+<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers below: </strong></p>
 <br/>
 
 | ![Proteus ISIS](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/89S52_400x400.png?raw=true) | ![Proteus ARES](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/asmCode.png?raw=true) | ![3D CAD Models](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/8051LCDx1.png?raw=true) |
 | :--: | :--: | :--: |
 | **8051 Microntroller** | **Assembly Code** | **Circuit Schematic** |
 
----
-
-
-
 <br/>
+<br/>
+
+---
 
 ## 🚀 **Overview**
 <p align="justify" style="background-color: white; color: black;">
@@ -56,19 +72,51 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 <br/>
 <br/>
 
+---
 
-
-## **8051 Microcontroller Pin Diagram and Architecture**
+## 📊 **8051 Microcontroller Pin Diagram and Architecture**
 
 <div align="center">
 
-| **Pin Diagram** | **Description** |
-|------------------|------------------|
-| ![Pin Diagram](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/5de037b5ac643153ca76238f1a3bf84399f4a651/assets/images/8051_Pinout.png) | **Pin Number**<br>1. **P1.0** to **P1.7**: I/O pins.<br>2. **RST**: Reset pin.<br>3. **P3.0** to **P3.7**: I/O pins.<br>4. **XTAL1, XTAL2**: Oscillator pins.<br>5. **GND**: Ground.<br>6. **P2.0** to **P2.7**: I/O pins.<br>7. **PSEN**: Program Store Enable.<br>8. **ALE**: Address Latch Enable.<br>9. **EA**: External Access.<br>10. **P0.0** to **P0.7**: I/O pins.<br>11. **VCC**: Power supply. |
-
-| **8051 Architecture** | **Description** |
-|-----------------------|------------------|
-| ![8051 Architecture](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8c91f06977be065d33401416ffc6ee5ed12fe402/assets/images/8051_Architecture.png) | **Architecture Overview**<br>The **8051 microcontroller architecture** consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>1. **ALU**: Performs operations.<br>2. **Registers**: Temporary storage.<br>3. **Control Unit**: Manages execution.<br>4. **Bus System**: Component communication.<br>5. **Timer/Counters**: Timing and counting operations. |
+<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+  <tr>
+    <th style="width: 50%; text-align: center;">**Pin Diagram**</th>
+    <th style="width: 50%; text-align: center;">**Description**</th>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/5de037b5ac643153ca76238f1a3bf84399f4a651/assets/images/8051_Pinout.png" alt="Pin Diagram" style="width: 90%; max-width: 300px; height: auto;">
+    </td>
+    <td style="text-align: left;">
+      <strong>Pin Number</strong><br>
+      1. <strong>P1.0</strong> to <strong>P1.7</strong>: I/O pins.<br>
+      2. <strong>RST</strong>: Reset pin.<br>
+      3. <strong>P3.0</strong> to <strong>P3.7</strong>: I/O pins.<br>
+      4. <strong>XTAL1, XTAL2</strong>: Oscillator pins.<br>
+      5. <strong>GND</strong>: Ground.<br>
+      6. <strong>P2.0</strong> to <strong>P2.7</strong>: I/O pins.<br>
+      7. <strong>PSEN</strong>: Program Store Enable.<br>
+      8. <strong>ALE</strong>: Address Latch Enable.<br>
+      9. <strong>EA</strong>: External Access.<br>
+      10. <strong>P0.0</strong> to <strong>P0.7</strong>: I/O pins.<br>
+      11. <strong>VCC</strong>: Power supply.
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center;">
+      <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8c91f06977be065d33401416ffc6ee5ed12fe402/assets/images/8051_Architecture.png" alt="8051 Architecture" style="width: 90%; max-width: 300px; height: auto;">
+    </td>
+    <td style="text-align: left;">
+      <strong>Architecture Overview</strong><br>
+      The <strong>8051 microcontroller architecture</strong> consists of a CPU, memory (both RAM and ROM), I/O ports, and timer/counter modules, allowing for a versatile and efficient design. The key components include:<br>
+      1. <strong>ALU</strong>: Performs operations.<br>
+      2. <strong>Registers</strong>: Temporary storage.<br>
+      3. <strong>Control Unit</strong>: Manages execution.<br>
+      4. <strong>Bus System</strong>: Component communication.<br>
+      5. <strong>Timer/Counters</strong>: Timing and counting operations.
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -103,71 +151,12 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 ---
 
-
-
-
-
-
-
-
 ## Minimum Circuit to Activate 8051 Microcontroller
 
-Below is the basic circuit configuration for activating an **8051 microcontroller** using an **11.0592 MHz crystal oscillator**:
+| **Circuit Diagram**                                                                                                                                                                                                                                      | **Key Components**                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f4d9c4baa06fa41dd1303054b56519bc5a94f184/assets/images/8051%20minimum%20ckt.png" alt="8051 Microcontroller Tutorials Banner" width="70%"> </p> | - **VCC**: Power supply to the 8051 microcontroller. <br> - **GND**: Ground connection. <br> - **XTAL1, XTAL2**: Connected to an **11.0592 MHz crystal oscillator**. <br> - **33 pF capacitors**: Connected between the crystal and ground. <br> - **RST (Reset pin)**: Connected to a **10kΩ pull-up resistor** and a **10 µF capacitor** to handle reset operations. <br> - **EA (External Access)**: Tied to **VCC** to use internal memory. <br> - **ALE (Address Latch Enable)** and **PSEN (Program Store Enable)**: Connected to **VCC** for normal operation. |
 
-### Key Components:
-- **VCC**: Power supply to the 8051 microcontroller.
-- **GND**: Ground connection.
-- **XTAL1, XTAL2**: Connected to an **11.0592 MHz crystal oscillator**.
-- **33 pF capacitors**: Connected between the crystal and ground.
-- **RST (Reset pin)**: Connected to a **10kΩ pull-up resistor** and a **10 µF capacitor** to handle reset operations.
-- **EA (External Access)**: Tied to **VCC** to use internal memory.
-- **ALE (Address Latch Enable)** and **PSEN (Program Store Enable)**: Connected to **VCC** for normal operation.
-
----
-### Circuit Diagram:
-
-    +-------------------------------------------+
-    |                8051 Microcontroller       |
-    |                                           |
-    |      XTAL1 -----|--------------------|    |
-    |                 |                    |    |
-    |     XTAL2 -----|---- 11.0592 MHz ----|    |
-    |                |      Crystal        |    |
-    |                 |                    |    |
-    |                 |---- 33pF ----------|    |
-    |      RST  ----|--|                   |    |
-    |             |  | 10kΩ                |    |
-    |          +--|--+----- VCC --------+  |    |
-    |          |  10µF                  |  |    |
-    |          +---------------------- GND |    |
-    |                                      |    |
-    |       EA  -------------------- VCC   |    |
-    |       ALE -------------------- VCC   |    |
-    |      PSEN -------------------- VCC   |    |
-    |                                      |    |
-    |       VCC -------------------| VCC   |    |
-    |       GND -------------------| GND   |    |
-    +-------------------------------------------+
-
----
-
-### Text Description of Connections:
-
-- **Power Supply (VCC and GND):**
-    - Connect **VCC** to pin 40 (VCC pin).
-    - Connect **GND** to pin 20 (GND pin).
-
-- **Crystal Oscillator (XTAL1 and XTAL2):**
-    - Connect the **11.0592 MHz crystal** between **XTAL1** (pin 19) and **XTAL2** (pin 18).
-    - Add **33 pF capacitors** between XTAL1 and ground, and between XTAL2 and ground.
-
-- **Reset Circuit:**
-    - Connect the **RST pin** (pin 9) to **VCC** through a **10kΩ pull-up resistor**.
-    - Connect a **10 µF capacitor** between the **RST pin** and ground to debounce the reset signal.
-
-- **External Access (EA), ALE, and PSEN:**
-    - Tie the **EA pin** (pin 31) directly to **VCC** for internal memory usage.
-    - Connect **ALE (pin 30)** and **PSEN (pin 29)** to **VCC** to enable normal operation.
 
 <hr/>
 
@@ -459,21 +448,21 @@ Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. I
       <a href="https://gmostofabd.github.io/8051-LED/">
         <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 1: LED Blink</strong></p>
+      <p><strong>Exp. 1: 8051 LED</strong></p>
       <p>This experiment demonstrates how to blink an LED using the 8051 microcontroller.</p>
     </td>
     <td align="center" style="vertical-align: center;">
       <a href="https://gmostofabd.github.io/8051-Push-Button/">
         <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 2: Push Button Interfacing</strong></p>
+      <p><strong>Exp. 2: Push Button Interfacing</strong></p>
       <p>Learn how to interface a push button with the 8051 to control outputs.</p>
     </td>
     <td align="center" style="vertical-align: bottom;">
       <a href="https://gmostofabd.github.io/8051-7Segment/">
         <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true" alt="Seven Segment Display" style="max-width: 100%; height: auto;">
       </a>
-      <p><strong>Experiment 3: Seven Segment Display</strong></p>
+      <p><strong>Exp. 3: Seven Segment Display</strong></p>
       <p>Discover how to interface and display numbers on a seven-segment display.</p>
     </td>
   </tr>
