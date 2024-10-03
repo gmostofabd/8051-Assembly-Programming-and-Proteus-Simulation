@@ -151,71 +151,12 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 ---
 
-
-
-
-
-
-
-
 ## Minimum Circuit to Activate 8051 Microcontroller
 
-Below is the basic circuit configuration for activating an **8051 microcontroller** using an **11.0592 MHz crystal oscillator**:
+| **Circuit Diagram**                                                                                                                                                                                                                                      | **Key Components**                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f4d9c4baa06fa41dd1303054b56519bc5a94f184/assets/images/8051%20minimum%20ckt.png" alt="8051 Microcontroller Tutorials Banner" width="70%"> </p> | - **VCC**: Power supply to the 8051 microcontroller. <br> - **GND**: Ground connection. <br> - **XTAL1, XTAL2**: Connected to an **11.0592 MHz crystal oscillator**. <br> - **33 pF capacitors**: Connected between the crystal and ground. <br> - **RST (Reset pin)**: Connected to a **10kΩ pull-up resistor** and a **10 µF capacitor** to handle reset operations. <br> - **EA (External Access)**: Tied to **VCC** to use internal memory. <br> - **ALE (Address Latch Enable)** and **PSEN (Program Store Enable)**: Connected to **VCC** for normal operation. |
 
-### Key Components:
-- **VCC**: Power supply to the 8051 microcontroller.
-- **GND**: Ground connection.
-- **XTAL1, XTAL2**: Connected to an **11.0592 MHz crystal oscillator**.
-- **33 pF capacitors**: Connected between the crystal and ground.
-- **RST (Reset pin)**: Connected to a **10kΩ pull-up resistor** and a **10 µF capacitor** to handle reset operations.
-- **EA (External Access)**: Tied to **VCC** to use internal memory.
-- **ALE (Address Latch Enable)** and **PSEN (Program Store Enable)**: Connected to **VCC** for normal operation.
-
----
-### Circuit Diagram:
-
-    +-------------------------------------------+
-    |                8051 Microcontroller       |
-    |                                           |
-    |      XTAL1 -----|--------------------|    |
-    |                 |                    |    |
-    |     XTAL2 -----|---- 11.0592 MHz ----|    |
-    |                |      Crystal        |    |
-    |                 |                    |    |
-    |                 |---- 33pF ----------|    |
-    |      RST  ----|--|                   |    |
-    |             |  | 10kΩ                |    |
-    |          +--|--+----- VCC --------+  |    |
-    |          |  10µF                  |  |    |
-    |          +---------------------- GND |    |
-    |                                      |    |
-    |       EA  -------------------- VCC   |    |
-    |       ALE -------------------- VCC   |    |
-    |      PSEN -------------------- VCC   |    |
-    |                                      |    |
-    |       VCC -------------------| VCC   |    |
-    |       GND -------------------| GND   |    |
-    +-------------------------------------------+
-
----
-
-### Text Description of Connections:
-
-- **Power Supply (VCC and GND):**
-    - Connect **VCC** to pin 40 (VCC pin).
-    - Connect **GND** to pin 20 (GND pin).
-
-- **Crystal Oscillator (XTAL1 and XTAL2):**
-    - Connect the **11.0592 MHz crystal** between **XTAL1** (pin 19) and **XTAL2** (pin 18).
-    - Add **33 pF capacitors** between XTAL1 and ground, and between XTAL2 and ground.
-
-- **Reset Circuit:**
-    - Connect the **RST pin** (pin 9) to **VCC** through a **10kΩ pull-up resistor**.
-    - Connect a **10 µF capacitor** between the **RST pin** and ground to debounce the reset signal.
-
-- **External Access (EA), ALE, and PSEN:**
-    - Tie the **EA pin** (pin 31) directly to **VCC** for internal memory usage.
-    - Connect **ALE (pin 30)** and **PSEN (pin 29)** to **VCC** to enable normal operation.
 
 <hr/>
 
