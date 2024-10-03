@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/876c6f42477c2a53b4a78e7dffa4a94b80299c16/assets/images/ATMEL%208051%20Tutorials_Banner_x4.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
 </p>
 
 <p align="center">
