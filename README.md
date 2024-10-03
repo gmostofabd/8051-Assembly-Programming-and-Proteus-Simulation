@@ -1,18 +1,14 @@
-<p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
-</p>
+
 
 <p align="center">
   <h1>⚙️ 8051 Microcontroller Tutorials: Assembly Programming and Proteus Simulation ⚙️</h1>
 </p>
 
+
+
 <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="60%">
 </p>
-
-
-
-
 
 
 
@@ -51,6 +47,10 @@
 
 <br/>
 
+<p align="center">
+  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/d64485f4fdac3459c1e21645996f41fdb1fb79ff/assets/images/8051_Assembly_Tutorials.png" alt="8051 Microcontroller Tutorials Banner" width="90%">
+</p>
+
 
   ## 📄 **Included Files:**
 
@@ -79,9 +79,7 @@
 
 ---
 
-
 <br/>
-
 
 ## 🚀 **Overview**
 <p align="justify" style="background-color: white; color: black;">
