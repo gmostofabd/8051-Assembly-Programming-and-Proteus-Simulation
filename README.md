@@ -51,22 +51,16 @@
 </table>
 
 <br/>
-
----
-
  <br/>
 <br/>
 
+
+---
+
+
 ## 📄 **Included Files:**
 
-<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers below: </strong></p>
-<br/>
 
-| ![Proteus ISIS](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/89S52_400x400.png?raw=true) | ![Proteus ARES](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/asmCode.png?raw=true) | ![3D CAD Models](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/8051LCDx1.png?raw=true) |
-| :--: | :--: | :--: |
-| **8051 Microntroller** | **Assembly Code** | **Circuit Schematic** |
-
-<br/>
 <br/>
 
 - 🔧 **Assembly Code**: Source code for each specific **8051 example**, available in `.asm` format for hands-on learning.
@@ -86,23 +80,30 @@
 >  
 > You can find the setup instructions and download links in the repository's **[Setup Instructions](#setup-instructions)** section.
 
+
+
+<p align="center"><strong>An example for interfacing an LCD to 8051 microcontrollers below: </strong></p>
+<br/>
+
+| ![Proteus ISIS](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/89S52_400x400.png?raw=true) | ![Proteus ARES](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/asmCode.png?raw=true) | ![3D CAD Models](https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f54f0f805807fdc7c9aaaccc91daf914335589d8/assets/images/8051LCDx1.png?raw=true) |
+| :--: | :--: | :--: |
+| **8051 Microntroller** | **Assembly Code** | **Circuit Schematic** |
+
+<br/>
+<br/>
+<br/>
+
 ---
 
 
-<br/>
 
-## 🚀 **Overview**
+
+## 🚀 **8051 Overview**
 <p align="justify" style="background-color: white; color: black;">
 The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 microcontroller</strong></a> was designed by Intel in 1981. It is an <a href="https://en.wikipedia.org/wiki/8-bit" target="_blank"><strong>8-bit microcontroller</strong></a> built with a <a href="https://en.wikipedia.org/wiki/Dual-inline_package" target="_blank"><strong>40-pin DIP (dual inline package)</strong></a>, 4KB of <a href="https://en.wikipedia.org/wiki/Read-only_memory" target="_blank"><strong>ROM storage</strong></a>, and 128 bytes of <a href="https://en.wikipedia.org/wiki/Random-access_memory" target="_blank"><strong>RAM storage</strong></a>. It consists of <a href="https://en.wikipedia.org/wiki/Timer" target="_blank"><strong>two 16-bit timers</strong></a> and four parallel <a href="https://en.wikipedia.org/wiki/Port_(computing)" target="_blank"><strong>8-bit ports</strong></a>, which are programmable and addressable as per the requirement.
 </p>
 
 <br/>
-<br/>
-
----
-
-<br/>
-
 
 ## 📊 **8051 Microcontroller Pin Diagram and Architecture**
 
@@ -152,48 +153,15 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 <br/>
 
-
-
-### **Key Pin Functions:**
-
-- **P0, P1, P2, P3:**  
-  These are **8-bit bidirectional I/O ports** used for **input/output operations**. In addition, **Port 0 (P0)** can function as both the lower byte of the address bus and a data bus in external memory interfacing.  
-  Learn more: [8051 Ports and Pin Functions](https://www.engineersgarage.com/8051-microcontroller-pin-diagram/)  
-   
-- **RST:**  
-  The **Reset pin** used to reset the microcontroller. A high pulse on this pin for at least two machine cycles resets the **8051**.  
-  Learn more: [Reset Circuit in 8051](https://www.elprocus.com/8051-microcontroller-reset-circuit/)  
-  
-- **EA (External Access):**  
-  The **External Access (EA)** pin is used to control whether the microcontroller should fetch code from internal or external memory. When tied to **GND**, the **8051** will fetch code from external memory.  
-  Learn more: [8051 External Access Explained](https://www.engineersgarage.com/8051-microcontroller-architecture/)  
-  
-- **ALE (Address Latch Enable):**  
-  The **Address Latch Enable (ALE)** pin is used to demultiplex the address and data bus when interfacing external memory. It outputs a signal to latch the lower byte of the address.  
-  Learn more: [ALE Pin and Its Functionality](https://www.microcontroller-project.com/8051-ale-pin/)  
-  
-- **PSEN (Program Store Enable):**  
-  The **Program Store Enable (PSEN)** pin is used to read external program memory. When the **8051** is accessing code from external memory, the **PSEN** signal will be activated.  
-  Learn more: [Program Store Enable in 8051](https://microcontrollerslab.com/8051-microcontroller-pin-diagram/)  
-  
-- **XTAL1 and XTAL2:**  
-  These are the **Oscillator pins** used to connect an external crystal or resonator for clock generation. **XTAL1** is the input to the inverting oscillator amplifier, and **XTAL2** is the output.  
-  Learn more: [Oscillator Connections in 8051](https://microcontrollerslab.com/oscillator-pins-8051-microcontroller/)
-
-<br/>
-
-
 ---
 
-## ✨ Minimum Circuit to Activate 8051 Microcontroller ✨
+### ✨ Minimum Circuit to Activate 8051 Microcontroller ✨
 
 | **Circuit Diagram**                                                                                                                                                                                                                                      | **Key Components**                                                                                                                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p align="center"> <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/f4d9c4baa06fa41dd1303054b56519bc5a94f184/assets/images/8051%20minimum%20ckt.png" alt="8051 Microcontroller Tutorials Banner" width="70%"> </p> | - **VCC**: Power supply to the 8051 microcontroller. <br> - **GND**: Ground connection. <br> - **XTAL1, XTAL2**: Connected to an **11.0592 MHz crystal oscillator**. <br> - **33 pF capacitors**: Connected between the crystal and ground. <br> - **RST (Reset pin)**: Connected to a **10kΩ pull-up resistor** and a **10 µF capacitor** to handle reset operations. <br> - **EA (External Access)**: Tied to **VCC** to use internal memory. <br> - **ALE (Address Latch Enable)** and **PSEN (Program Store Enable)**: Connected to **VCC** for normal operation. |
 
-
 <hr/>
-
 
 <br/>
 
@@ -201,13 +169,9 @@ The <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>8051 mi
 
 ## <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/prg2.png" alt="Programming Icon" width="48" height="48" /> PROGRAMMING LANGUAGE FOR THE 8051
 
-
 <p align="justify">
 If you're interested in programming, you've likely already used a <a href="https://en.wikipedia.org/wiki/Programming_language" target="_blank"><strong>programming language</strong></a> to write or compile code. If not, it's a good idea to start with the basics before diving into microcontrollers. Writing code for the <a href="https://en.wikipedia.org/wiki/Intel_MCS-51" target="_blank"><strong>8051 Microcontroller</strong></a> is similar to general programming. Once you’ve chosen a language, you set up the development environment, and you're good to go!
 </p>
-
-
-
 
 
 ### Programming Options for the 8051 Microcontroller:
@@ -232,7 +196,6 @@ However, **advanced microcontrollers** now support a wider range of languages.
 ---
 
 ### <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/072eeff0c330a1aa9c9341f81307fd85a18b9706/assets/images/c2.png" alt="C Programming Icon" width="48" height="48" /> **C Language:**
-
 
 - **Pros**: Easier to write, more flexible, and widely supported.
 - **Cons**: Less control over hardware compared to Assembly.
@@ -290,7 +253,6 @@ For the <a href="https://en.wikipedia.org/wiki/8051" target="_blank"><strong>805
 <p align="justify">
 If you’re new to microcontroller programming, start with <a href="https://en.wikipedia.org/wiki/Assembly_language" target="_blank"><strong>Assembly</strong></a> to understand the basics, then move to <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><strong>C</strong></a> for more complex projects. For advanced platforms, explore other languages like <a href="https://www.python.org/" target="_blank"><strong>Python</strong></a> or <a href="https://www.rust-lang.org/" target="_blank"><strong>Rust</strong></a> for faster development with high-level features.
 </p>
-
 
 ---
 
@@ -435,13 +397,14 @@ The **USBasp** is a widely-used, open-source programmer that enables seamless in
 2. **AVRDude**: A command-line tool to upload the compiled Assembly or C code (.hex files).
 3. **Driver Installation**: Use **Zadig** for Windows driver setup.
 
----
 
-
-
+ <br/>
+<br/>
 <br/>
 
 
+
+---
 
 ### ⚗️ Best Assembler for 8051: MIDE-51
 
@@ -463,30 +426,29 @@ Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. I
 
 
 <br/>
+<br/>
+<br/>
 
 ---
 
-<br/>
-
-
-## **Requirements:**
+## ✨ **Requirements:**
 
 ### **Software:**
 - **[MIDE-51](https://www.opcube.com/)** – IDE for writing and compiling Assembly code for 8051.
 - **[avrdudes](http://savannah.nongnu.org/projects/avrdude)** – Uploads compiled programs to hardware.
 - **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – Circuit simulation software.
 
-### **Hardware:**
+### ✨ **Hardware:**
 - **MK-51S Microcontroller Development Kit**
 
 > **Note:** You can still follow along by using a **USBasp Programmer** and basic **components** for hands-on practice.
 
+<br/>
+<br/>
+<br/>
+
 ---
-<br/>
 
-
-<br/>
-<br/>
 
 
 
@@ -525,6 +487,10 @@ Overall, MIDE-51 is an excellent choice for programming 8051 microcontrollers. I
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Basic%20Calculator/8051%20Basic%20calculator.png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true">|
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/8343a9874e5530a658bd2e023b0df2a4dee0359f/8051%20Stepper%20Motors/8051%20Stepper%20Motor.png?raw=true">  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true">|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true">|
 
+
+<br/>
+<br/>
+
 ---
 
 ## 🏆 **Acknowledgments**
@@ -538,6 +504,10 @@ A huge **thank you** to the following incredible tools and teams for making this
 - **[Atmel (Microchip)](https://www.microchip.com/)** – for their legendary **8051 microcontroller series**, which remains an integral part of embedded systems learning.
   
 - **[Proteus Design Suite](https://www.labcenter.com/downloads/)** – for their excellent circuit simulation platform that brings designs to life before hitting the hardware stage.
+
+
+<br/>
+<br/>
 
 ---
 
@@ -555,13 +525,14 @@ A huge **thank you** to the following incredible tools and teams for making this
 
 - **8051 Microcontroller Reference**: [Datasheet](https://www.atmel.com/products/microcontrollers/8051.aspx)
 
+<br/>
+<br/>
+
 ---
 
-<br/>
-<br/>
 
 
-### **References:**
+### 🔗 **References:**
 
 1. [8051 Microcontroller Overview](https://www.electronics-tutorials.ws/microcontroller/8051-microcontroller.html)
 2. [Assembly Language Basics](https://en.wikipedia.org/wiki/Assembly_language)
@@ -578,6 +549,11 @@ A huge **thank you** to the following incredible tools and teams for making this
 - GitHub: [gmostofabd](https://github.com/gmostofabd)
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
 - Website: [melab BD](https://www.melabbd.com)
+
+<br/>
+<br/>
+
+---
 
 ## 📜 **License**
 
