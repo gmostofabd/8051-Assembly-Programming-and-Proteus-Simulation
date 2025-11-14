@@ -1,88 +1,35 @@
-/* General page styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+/* ===== General Page Styles ===== */
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f5f7fa; color: #333; }
+#header_common img { width: 100%; height: auto; display: block; border-bottom: 4px solid #003366; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+p img { width: 100%; max-width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
 
-/* Header styles */
-#header_common {
-    text-align: center;
-    margin: 20px 0;
-}
+/* Section Titles */
+#topic_container { text-align: center; padding: 20px 10px; background: #ffffff; margin: 30px auto 10px auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 900px; }
+#topic_container h2 { margin: 0; color: #003366; font-size: 24px; font-weight: 600; }
 
-#header_common img {
-    max-width: 100%;
-    height: auto;
-}
+/* Cards */
+#root_cont { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: auto; }
+.capt_cont { background: #ffffff; border-radius: 12px; padding: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.capt_cont:hover { transform: translateY(-8px); box-shadow: 0 8px 20px rgba(0,0,0,0.25); }
+.capt_cont img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+.capt_cont a { display: block; margin: 12px 0; font-weight: bold; font-size: 18px; color: #0066cc; text-decoration: none; transition: color 0.3s ease; }
+.capt_cont a:hover { color: #004499; }
+.capt_cont p { font-size: 14px; color: #555; line-height: 1.5; }
 
-/* Title section */
-#topic_container {
-    text-align: center;
-    margin: 20px 0;
-}
+/* Carousel */
+.carousel-container { max-width: 900px; margin: 30px auto; position: relative; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.15); background: #fff; padding: 10px; }
+.carousel-header { text-align: center; font-size: 22px; color: #003366; font-weight: 600; margin-bottom: 10px; }
+.carousel-slide { display: flex; transition: transform 0.5s ease-in-out; }
+.carousel-slide img { width: 100%; max-height: 180px; object-fit: cover; border-radius: 6px; }
+.carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.4); color: white; border: none; font-size: 24px; padding: 8px 12px; cursor: pointer; border-radius: 50%; }
+.carousel-btn.left { left: 10px; }
+.carousel-btn.right { right: 10px; }
 
-h2 {
-    color: #333;
-    font-size: 24px;
-    margin: 0;
-}
+/* Carousel Dots */
+.carousel-dots { text-align: center; margin-top: 10px; }
+.carousel-dots span { display: inline-block; width: 12px; height: 12px; margin: 0 5px; background: #ccc; border-radius: 50%; cursor: pointer; transition: background 0.3s; }
+.carousel-dots span.active { background: #003366; }
 
-/* Main container for the experiment topics */
-#root_cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+@media (max-width:768px){
+    #topic_container h2 { font-size: 22px; }
 }
-
-/* Individual topic containers */
-.capt_cont {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-.capt_cont:hover {
-    transform: translateY(-5px);
-}
-
-.capt_cont img {
-    max-width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-/* Links for topics */
-.capt_cont a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-    color: #007bff;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.capt_cont a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
-/* Description text for each topic */
-.capt_cont p {
-    font-size: 14px;
-    color: #555;
-    margin-top: 10px;
-    text-align: center;
-}
-
