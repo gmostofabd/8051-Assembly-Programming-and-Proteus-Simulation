@@ -1,168 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="assets/style.css">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="https://github.com/gmostofabd/melab-store/blob/main/Images/melabBD%20Logo%20192x192px.png?raw=true" type="image/x-icon">
-
-    <!-- Page Title -->
     <title>8051 Microcontroller Experiments</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/gmostofabd/melab-store/main/Images/melabBD%20Logo%20192x192px.png" type="image/x-icon">
 </head>
-
 <body>
 
-    <!-- Header with Banner Image -->
+    <!-- Header Banner -->
     <div id="header_common">
-        <img src="https://github.com/gmostofabd/melab-store/blob/main/Images/8051_Tutorial_Banner.png?raw=true" alt="8051 Microcontroller Tutorials Banner">
+        <img src="https://raw.githubusercontent.com/gmostofabd/melab-store/main/Images/8051_Tutorial_Banner.png" alt="8051 Microcontroller Tutorials Banner">
     </div>
 
- <p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="90%">
-</p>
-   
-    
-    
-    <!-- Title Section -->
+    <!-- Secondary Banner -->
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/gmostofabd/melab-store/main/Images/8051_TutorialBanner_Blue1.jpg" alt="8051 Microcontroller Banner">
+    </p>
+
+    <!-- ===== What You Need (Image Slider) ===== -->
+    <div class="carousel-container">
+        <div class="carousel-header">What You Need</div>
+        <div class="carousel-slide" id="carouselSlide">
+            <img src="https://source.unsplash.com/800x180/?microcontroller,8051" alt="8051 Microcontroller">
+            <img src="https://source.unsplash.com/800x180/?breadboard" alt="Breadboard">
+            <img src="https://source.unsplash.com/800x180/?led" alt="LEDs">
+        </div>
+        <button class="carousel-btn left" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-btn right" onclick="nextSlide()">&#10095;</button>
+        <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+
+    <!-- ===== Experiments Section ===== -->
     <div id="topic_container">
-        <h2> 8051 Microcontroller Experiments</h2>
+        <h2>8051 Microcontroller Experiments (Tutorials)</h2>
     </div>
 
-
-<p align="center">
-  <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/50abc7df1a1c73bb041c7264b61e53264fb06102/assets/images/ATMEL%208051%20Tutorials_Banner_x8.gif" alt="8051 Microcontroller Tutorials Banner" width="90%">
-</p>
-
-
-
-
-    
-
-    <!-- Experiments Section -->
     <div id="root_cont">
-        <!-- Experiment 1: LED Blink -->
+        <!-- All your experiment cards (same as before) -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LED/assets/images/LED_8051_Ckt.png?raw=true" alt="LED Blink">
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%20LED/assets/images/LED_8051_Ckt.png" alt="8051 LED Blink">
             <a href="https://gmostofabd.github.io/8051-LED/">8051 LED Blink</a>
-            <p>This experiment demonstrates how to blink an LED using the 8051 microcontroller.</p>
+            <p>Blink an LED using 8051 microcontroller assembly code.</p>
         </div>
 
-        <!-- Experiment 2: Push Button Interfacing -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png?raw=true" alt="Push Button Interfacing">
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%20SSD%20Up%20Dn%20Counter/UP_DN_COUNTER.png" alt="8051 Push Button Counter">
             <a href="https://gmostofabd.github.io/8051-Push-Button/">8051 Push Button Interfacing</a>
-            <p>Learn how to interface a push button with the 8051 to control outputs.</p>
+            <p>Interface push buttons to control up/down counting.</p>
         </div>
 
-        <!-- Experiment 3: Seven Segment Display -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png?raw=true?raw=true" alt="LED Blink">
-            <a href="https://gmostofabd.github.io/8051-7Segment/">8051 Seven Segment Display Interfacing</a>
-            <p>Discover how to interface and display numbers on a seven-segment display.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/melab-store/main/8051%20Examples%20Simulation%20ScrnShots/8051%20Traffic%20Lights2.png" alt="8051 Seven Segment Display">
+            <a href="https://gmostofabd.github.io/8051-7Segment/">8051 Seven Segment Display</a>
+            <p>Display numbers using 7-segment displays and 8051.</p>
         </div>
 
-        <!-- Experiment 4: LED Dot Matrix -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png?raw=true" alt="LED Dot Matrix Display Interfacing">
-            <a href="https://gmostofabd.github.io/8051-LED-Matrix/">8051 LED Dot Matrix Display Interfacing</a>
-            <p>Interface an LED Dot Matrix to display patterns or scrolling text.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%20DOT%20Matrix%20LED/8051%20DOT%20Matrix%20LED.png" alt="8051 LED Dot Matrix">
+            <a href="https://gmostofabd.github.io/8051-LED-Matrix/">8051 Dot Matrix Interfacing</a>
+            <p>Interface LED dot matrix to show patterns.</p>
         </div>
 
-        <!-- Experiment 5: LCD Interfacing -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png?raw=true" alt="LCD Interfacing">
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%20LCD/AT89C51_8_BIT_LCD_(RW_PIN_TO_GND).png" alt="8051 LCD Display">
             <a href="https://gmostofabd.github.io/8051-LCD/">8051 LCD Interfacing</a>
-            <p>Interface an LCD with the 8051 to display characters and messages.</p>
+            <p>Display characters and messages using 16x2 LCD.</p>
         </div>
 
-        <!-- Experiment 6: Analog Reading -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/AD0804%20LED/Schematic.png?raw=true" alt="Potentiometer (Analog) Reading">
-            <a href="https://gmostofabd.github.io/8051-Analog/">8051 Potentiometer (Analog) Reading</a>
-            <p>Learn how to read analog signals from a potentiometer using the 8051.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/AD0804%20LED/Schematic.png" alt="8051 ADC Analog Reading">
+            <a href="https://gmostofabd.github.io/8051-Analog/">8051 Analog Reading</a>
+            <p>Read analog values using ADC0804 with 8051.</p>
         </div>
 
-        <!-- Experiment 7: Keypad Interfacing -->
         <div class="capt_cont">
-            <img src="https://example.com/keypad.png" alt="Keypad Interfacing">
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/assets/images/8051%20HexKeypad%20SSD.png" alt="8051 Keypad">
             <a href="https://gmostofabd.github.io/8051-Keypad/">8051 Keypad Interfacing</a>
-            <p>Interface a 4x4 keypad to take user input for various applications.</p>
+            <p>Interface 4×4 keypad for user inputs.</p>
         </div>
 
-
-
-        <!-- Experiment 8: DC Motor Interfacing -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/melab-store/blob/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png?raw=true" alt="DC Motor Interfacing">
-            <a href="https://gmostofabd.github.io/8051-DC-Motor/">8051 DC Motor Interfacing</a>
-            <p>Control the speed and direction of a DC motor using the 8051 microcontroller.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/melab-store/main/8051%20Examples%20Simulation%20ScrnShots/8051%20L293D%20DC%20Motor.png" alt="8051 DC Motor Driver">
+            <a href="https://gmostofabd.github.io/8051-DC-Motor/">8051 DC Motor Control</a>
+            <p>Control motor speed & direction using L293D.</p>
         </div>
 
-        <!-- Experiment 9: Stepper Motor Interfacing -->
         <div class="capt_cont">
-            <img src="https://example.com/stepper-motor.png" alt="Stepper Motor Interfacing">
-            <a href="https://gmostofabd.github.io/8051-Stepper-Motor/">8051 Stepper Motor Interfacing</a>
-            <p>Interface a stepper motor to control its motion in discrete steps.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/assets/images/8051%20Stepper%20Motor.png" alt="8051 Stepper Motor">
+            <a href="https://gmostofabd.github.io/8051-Stepper-Motor/">8051 Stepper Motor</a>
+            <p>Drive stepper motors using ULN2003 & 8051.</p>
         </div>
 
-        <!-- Experiment 10: RTC Interfacing -->
         <div class="capt_cont">
-            <img src="https://github.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/blob/aceb06c4975f29b3eb4b97681455b6ac34920d15/8051%20RTC%20DS1307/8051%20RTC%20DS1307%20LCD.png?raw=true" alt="RTC Interfacing">
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%20RTC%20DS1307/8051%20RTC%20DS1307%20LCD.png" alt="8051 RTC Module">
             <a href="https://gmostofabd.github.io/8051-RTC/">8051 RTC Interfacing</a>
-            <p>Interface a real-time clock (RTC) module to keep track of time.</p>
+            <p>Use DS1307 RTC to track time.</p>
         </div>
 
-        <!-- Experiment 11: EEPROM Interfacing -->
         <div class="capt_cont">
-            <img src="https://example.com/eeprom.png" alt="EEPROM Interfacing">
+            <img src="https://example.com/eeprom.png" alt="8051 EEPROM">
             <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 EEPROM Interfacing</a>
-            <p>Learn how to read from and write to EEPROM using the 8051 microcontroller.</p>
+            <p>Read from and write to EEPROM using 8051.</p>
         </div>
-  
+    </div>
+	
 
+    <!-- ===== Experiments Section ===== -->
+    <div id="topic_container">
+        <h2>8051 Microcontroller Experiments (Projects)</h2>
+    </div>
 
-        <!-- Experiment 12: EEPROM Interfacing -->
+    <div id="root_cont">
+        <!-- All your experiment cards (same as before) -->
         <div class="capt_cont">
-            <img src="https://example.com/eeprom.png" alt="EEPROM Interfacing">
-            <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 EEPROM Interfacing</a>
-            <p>Learn how to read from and write to EEPROM using the 8051 microcontroller.</p>
+                        <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/assets/images/8051%20Traffic%20Lights1.png" alt="8051 Traffic Light System">
+            <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 Traffic Light System</a>
+            <p>A simple traffic light system using 8051 timers.</p>
         </div>
-   
 
-
-        <!-- Experiment 13: EEPROM Interfacing -->
         <div class="capt_cont">
-            <img src="https://example.com/eeprom.png" alt="EEPROM Interfacing">
-            <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 EEPROM Interfacing</a>
-            <p>Learn how to read from and write to EEPROM using the 8051 microcontroller.</p>
+            <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/assets/images/8051%20Traffic%20Lights2.png" alt="8051 Traffic Controller">
+            <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 Traffic Controller</a>
+            <p>Intelligent traffic control using delays & timers.</p>
         </div>
-   
 
-
-            <!-- Experiment 14: EEPROM Interfacing -->
+ 
         <div class="capt_cont">
-            <img src="https://example.com/eeprom.png" alt="EEPROM Interfacing">
+            <img src="https://example.com/eeprom.png" alt="8051 EEPROM">
             <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 EEPROM Interfacing</a>
-            <p>Learn how to read from and write to EEPROM using the 8051 microcontroller.</p>
-        </div>
-  
-
-        <!-- Experiment 15: EEPROM Interfacing -->
-        <div class="capt_cont">
-            <img src="https://example.com/eeprom.png" alt="EEPROM Interfacing">
-            <a href="https://gmostofabd.github.io/8051-Tutorial-Home/">8051 EEPROM Interfacing</a>
-            <p>Learn how to read from and write to EEPROM using the 8051 microcontroller.</p>
+            <p>Read from and write to EEPROM using 8051.</p>
         </div>
     </div>
 
-
-    
+    <script src="assets/script.js"></script>
 </body>
-
 </html>
