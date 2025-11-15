@@ -297,6 +297,7 @@ SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
 
 ## 🧪 Proteus Simulation
 
+
 ### 🔧 Steps to Create Simulation
 
 1. Open **Proteus 8 Professional**
@@ -315,7 +316,14 @@ SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
 5. Load the generated `.hex` file
 6. Click **Run Simulation**
 
----
+
+```
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%207-Segment/AT89C51_7_Segment_Simple.png" alt="Seven Segment Display Simulation" width="450" height="300"> <br>
+<span style="color:blue;"><b>Figure 1: Seven Segment Display in Proteus</b></span>
+</p>
+```
 
 ## Hardware Implementation (Optional)
 ---
