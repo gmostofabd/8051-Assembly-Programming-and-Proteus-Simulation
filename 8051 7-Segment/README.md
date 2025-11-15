@@ -75,51 +75,179 @@ This guide is suitable for **beginners**, **students**, and **hobbyists**.
 ## 💻 Assembly Code for Displaying 0–9 Continuously
 
 ```asm
-;==================================
-; Seven Segment Display with 8051
-; Displays digits 0 to 9
-; Port P1 -> Seven Segment
-;==================================
+;====================================================================
+; 8051 MCU INTYERFACING WITH 7 SEGMENT LED DISPLAY
+; 
+; Created     : Sun, Oct 30 2022
+; Processor   : AT89S52 (wITH 11.0592 Crystal Oscillator)
+; Compiler    : MIDE-51 (WINASM)
+; Simulator   : PROTEUS 8.9
+; Hardware    : avrPRO (Ver.22.0) Development Board and  Tested OK
+; Single Digit Common Cathode 7 Segment Display used (As IN Hardware)
+;====================================================================
 
-ORG 0000H
+;====================================================================
+; DEFINITIONS
+;====================================================================
+	PORT	EQU	P1
 
-MAIN:
-    MOV DPTR, #LOOKUP     ; Point DPTR to lookup table
+;====================================================================
+; VARIABLES
+;====================================================================
 
-LOOP:
-    MOV R0, #00H          ; Start from digit 0
+;====================================================================
+; RESET and INTERRUPT VECTORS
+;====================================================================
+      ORG	00H		; Reset Vector Address
+      AJMP	START		; Jump TO Main Program
+;====================================================================
+; CODE SEGMENT
+;====================================================================
+	ORG	030H
+START:
+	MOV	PORT,#00H	; CLEARING 7 SEG DATA PORT
+LOOP1:
+	MOV 	PORT,#00111111B	; Data Pattern for No. "0"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#00000110B	; Data Pattern for No. "1"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01011011B	; Data Pattern for No. "2"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01001111B	; Data Pattern for No. "3"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01100110B	; Data Pattern for No. "4"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01101101B	; Data Pattern for No. "5"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01111101B	; Data Pattern for No. "6"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#00000111B	; Data Pattern for No. "7"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01111111B	; Data Pattern for No. "8"
+	LCALL	ONE_SEC		; One Second Delay
+	MOV 	PORT,#01101111B	; Data Pattern for No. "9"
+	LCALL	ONE_SEC		; One Second Delay
 
-NEXT_DIGIT:
-    MOVC A, @A+DPTR       ; Read code from lookup table
-    MOV P1, A             ; Output to Port 1
-    ACALL DELAY           ; Delay for visibility
-    INC R0                ; Next digit
-    CJNE R0, #0AH, NEXT_DIGIT
+	LJMP	LOOP1
 
-    SJMP LOOP             ; Repeat forever
+;====================================================================
+; ONE_SEC: (Subroutine to Delay ONE Second)
+; Uses Register R7 but Preserves this Register 
+;====================================================================
+ONE_SEC: 
+ 	PUSH	07H		; Save R7 to Stack 
+ 	MOV	R7, #250D	; LOAD R7 to Count 250 Loops
+LOOP_SEC:	; Calls 4 One Millisec. Delays, 250 times 
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	DJNZ 	R7, LOOP_SEC 	; Decrement R7, if not Zero loop back 
+ 	POP 	07H		; Restore R7 to Original value 
+	RET
+;====================================================================
+; ONE_MILL_SEC: (Subroutine to Delay ONE Milli Second)
+; Uses Register R7 but Preserves this Register 
+;====================================================================
+ONE_MILL_SEC: 
+	PUSH	07H		; Save R7 to Stack   
+	MOV 	R7, #250D	; LOAD R7 to Count 250 Loops
+LOOP_1_MS:			; Loops 250 times 
+	NOP			; Inserted NOPs to cause Delay 
+ 	NOP			; 
+ 	DJNZ 	R7, LOOP_1_MS	; Decrement R7, if not Zero loop back 
+	POP	07H		; Restore R7 to Sriginal value 
+	RET			; Return from Subroutine
+;====================================================================
 
-; Lookup Table (HEX codes)
-LOOKUP:
-    DB 3FH ; 0
-    DB 06H ; 1
-    DB 5BH ; 2
-    DB 4FH ; 3
-    DB 66H ; 4
-    DB 6DH ; 5
-    DB 7DH ; 6
-    DB 07H ; 7
-    DB 7FH ; 8
-    DB 6FH ; 9
+      END			; end of program
+;====================================================================
+; END of the Assembly Program
+;====================================================================
+````
 
-;=== Delay Subroutine ===
-DELAY:
-    MOV R1, #255
-D1: MOV R2, #255
-D2: DJNZ R2, D2
-    DJNZ R1, D1
-    RET
 
-END
+
+## 💻 Assembly Code for Displaying 0–9 Continuously (using Lookup Table)
+
+
+
+```asm
+;====================================================================
+; 8051 MCU INTYERFACING WITH 7 SEGMENT LED DISPLAY
+; 
+; CREATED     : SUN, OCT 30 2022
+; PROCESSOR   : AT89S52 (WITH 11.0592 CRYSTAL OSCILLATOR)
+; COMPILER    : MIDE-51 (WINASM)
+; SIMULATOR   : PROTEUS 8.9
+; HARDWARE    : AVRPRO (VER.22.0) DEVELOPMENT BOARD AND  TESTED OK
+; SINGLE DIGIT COMMON CATHODE 7 SEGMENT DISPLAY USED (AS IN HARDWARE)
+; LOOK UP TABLE USED.
+;====================================================================
+
+;====================================================================
+;====================================================================
+      	ORG   0000H		; RESET VECTOR ADDRESS
+
+	MOV	P2,#11111110B	; 
+
+MAIN_LOOP:
+	MOV	R5,#0D
+	MOV	R6,#09D
+
+REPEAT:
+	MOV	A,R5
+	MOV 	DPTR,#SSD_CC
+	MOVC 	A,@A+DPTR
+	MOV 	P3,A
+	LCALL	ONE_SEC
+	INC	R5
+	MOV	A,R5
+	SUBB	A,R6
+	JZ	MAIN_LOOP
+	LJMP	REPEAT
+;====================================================================
+;====================================================================
+
+;====================================================================
+; ONE_SEC: (Subroutine to Delay ONE Second)
+; Uses Register R7 but Preserves this Register 
+;====================================================================
+ONE_SEC: 
+ 	PUSH	07H		; Save R7 to Stack 
+ 	MOV	R7, #250D	; LOAD R7 to Count 250 Loops
+LOOP_SEC:	; Calls 4 One Millisec. Delays, 250 times 
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	LCALL	ONE_MILL_SEC	; Call 1 MilliSecond Delay
+ 	DJNZ 	R7, LOOP_SEC 	; Decrement R7, if not Zero loop back 
+ 	POP 	07H		; Restore R7 to Original value 
+	RET
+;====================================================================
+; ONE_MILL_SEC: (Subroutine to Delay ONE Milli Second)
+; Uses Register R7 but Preserves this Register 
+;====================================================================
+ONE_MILL_SEC: 
+	PUSH	07H		; Save R7 to Stack   
+	MOV 	R7, #250D	; LOAD R7 to Count 250 Loops
+LOOP_1_MS:			; Loops 250 times 
+	NOP			; Inserted NOPs to cause Delay 
+ 	NOP			; 
+ 	DJNZ 	R7, LOOP_1_MS	; Decrement R7, if not Zero loop back 
+	POP	07H		; Restore R7 to Sriginal value 
+	RET			; Return from Subroutine
+;====================================================================
+
+;====================================================================
+ORG  300H
+SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
+;====================================================================
+      END
+;====================================================================
+; END of the Assembly Program
+;====================================================================
+
 ````
 
 ---
@@ -154,7 +282,7 @@ END
 ![Proteus Circuit](images/circuit.png)
 ![Output Digit](images/output.jpg)
 ```
-
+<img src="./AT89C51_7_Segment_Simple.png" alt="AT89C51 7-Segment Simple" />
 ---
 
 ## 🎥 Video Demonstration
