@@ -1,12 +1,22 @@
-```md
----
-## 💻 🧮🧮 Interfacing a Seven Segment Display with 8051 Microcontroller
+# Interfacing a Seven Segment Display with the 8051 Microcontroller  
+### A Step-by-Step Technical Guide (Assembly + Proteus Simulation + Hardware Test)
+
 
 ---
-A Complete Step-by-Step Tutorial (Assembly + Proteus Simulation)
+
+<p align="center">
+	<br><br>
+  <img src="./AT89C51_7_Segment_Simple.png" alt="7-seg" width="900" height="600">
+  <br>
+  <span style="color:blue;"><b>Figure 1: Seven Segment Display with 8051 Microcontroller</b></span>
+	<br><br><br>
+</p>
+
+
 ---
 
-## 📘 Introduction
+## Introduction
+
 
 Seven-segment displays are widely used to show decimal numbers in embedded systems.
 This article is about how to interface a seven segment LED display to any mi-crocontroller.
@@ -46,7 +56,7 @@ This guide is suitable for **beginners**, **students**, and **hobbyists**.
 
 ---
 
-## 3. Seven-Segment Display Characteristics
+## Seven-Segment Display Characteristics
 
 Seven-segment displays are available as:  
 - **Common Cathode (CC)**  
@@ -63,7 +73,6 @@ Common features include:
 In this project, a **single-digit Common Cathode SSD** is used.
 
 ---
-
 
 
 ## 🔤 Seven Segment Display Pin Mapping
@@ -99,12 +108,16 @@ In this project, a **single-digit Common Cathode SSD** is used.
 | 8 | All | `0x7F` |
 | 9 | a b c d f g | `0x6F` |
 
----
-
+````
 
 ````
 
+---
+
+
 ## 💻 Assembly Code for Displaying 0–9 Continuously
+
+
 
 ```asm
 ;====================================================================
@@ -196,13 +209,13 @@ LOOP_1_MS:			; Loops 250 times
 ;====================================================================
 ; END of the Assembly Program
 ;====================================================================
+
 ````
+
 ---
 
 
 ## 💻 Assembly Code for Displaying 0–9 Continuously (using Lookup Table)
-
-
 
 ```asm
 ;====================================================================
@@ -282,8 +295,6 @@ SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
 
 ````
 
----
-
 ## 🧪 Proteus Simulation
 
 ### 🔧 Steps to Create Simulation
@@ -306,11 +317,8 @@ SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
 
 ---
 
-7.3 Circuit Diagram (Placeholder)
-Insert: images/8051_7segment_circuit.png
-
-8. Hardware Implementation (Optional)
-
+## Hardware Implementation (Optional)
+---
 If you are testing on a real development board:
 
 Ensure segment current never exceeds 30 mA
@@ -325,19 +333,27 @@ Photos (Placeholders)
 images/hardware_front_view.jpg  
 images/hardware_output.jpg  
 
-9. Video Demonstration (Placeholder)
+---
+
+## Video Demonstration (Placeholder)
 
 Upload your test video and link it here:
 
 [Watch the Demonstration](https://your-video-link.com)
 
-10. Troubleshooting Guide
+---
+
+## Troubleshooting Guide
+---
 Problem	Possible Cause	Solution
 All segments off	Wrong common pin connection	Ensure SSD is Common Cathode and tied to GND
 Incorrect digit shown	Wrong bit pattern	Verify HEX codes
 Display too dim	High-value resistors	Reduce resistor value to 220–330Ω
-No response	Incorrect HEX file loaded	Regenerate and reload HEX
-11. Advanced Extensions
+No response	Incorrect HEX file loaded	Regenerate and reload HEX.
+
+---
+
+## Advanced Extensions
 
 You may extend this project to:
 
@@ -355,7 +371,13 @@ Up/Down counter with push buttons
 
 ## Circuit Discussion :
 
-The circuit diagram shown above is of an AT89S51 microcontroller based 0 to 9 counter which has a 7 segment LED display interfaced to it in order to display the count. This simple circuit illustrates two things. How to setup simple 0 to 9 up counter using 8051 and more importantly how to interface a seven segment LED display to 8051 in order to display a particular result. The common cathode seven segment display D1 is connected to the Port 1 of the microcontroller (AT89S51) as shown in the circuit diagram. R3 to R10 are current limiting resistors. S3 is the reset switch and R2,C3 forms a debouncing circuitry. C1, C2 and X1 are related to the clock circuit. The software part of the project has to do the following tasks.
+The circuit diagram shown above is of an AT89S51 microcontroller based 0 to 9 counter which has a 7 segment 
+LED display interfaced to it in order to display the count. This simple circuit illustrates two things. 
+How to setup simple 0 to 9 up counter using 8051 and more importantly how to interface a seven segment 
+LED display to 8051 in order to display a particular result. The common cathode seven segment display D1 
+is connected to the Port 1 of the microcontroller (AT89S51) as shown in the circuit diagram. R3 to R10 
+are current limiting resistors. S3 is the reset switch and R2,C3 forms a debouncing circuitry. C1, C2 and 
+X1 are related to the clock circuit. The software part of the project has to do the following tasks.
 
 ## 🎥 Video Demonstration
 
