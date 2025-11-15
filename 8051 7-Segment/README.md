@@ -1,4 +1,6 @@
-# 🔟 Interfacing a Seven Segment Display with 8051 Microcontroller  
+```md
+
+# 🧮🧮 Interfacing a Seven Segment Display with 8051 Microcontroller  
 A Complete Step-by-Step Tutorial (Assembly + Proteus Simulation)
 
 ---
