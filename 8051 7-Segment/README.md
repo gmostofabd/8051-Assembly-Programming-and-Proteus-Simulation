@@ -8,7 +8,14 @@ A Complete Step-by-Step Tutorial (Assembly + Proteus Simulation)
 
 ## 📘 Introduction
 
-Seven-segment displays are widely used to show decimal numbers in embedded systems.  This article is about how to interface a seven segment LED display to any mi-crocontroller. Funny thing is that if you want to control a single digit 7 segmentdisplay, then it is nothing but controlling 7 LED’s as we learnt from the previous experiment. For multiple segments, there are simple studies for hardware and soft-ware as well. However a good Knowledge about how to interface a seven segmentdisplay to a microcontroller is very essential in designing embedded systems.
+Seven-segment displays are widely used to show decimal numbers in embedded systems.
+This article is about how to interface a seven segment LED display to any mi-crocontroller.
+Funny thing is that if you want to control a single digit 7 segmentdisplay, then it is
+nothing but controlling 7 LED’s as we learnt from the previous experiment. For multiple 
+segments, there are simple studies for hardware and soft-ware as well.
+
+However a good Knowledge about how to interface a seven segmentdisplay to a microcontroller
+is very essential in designing embedded systems.
 
 In this tutorial, you will learn:
 
@@ -39,25 +46,23 @@ This guide is suitable for **beginners**, **students**, and **hobbyists**.
 
 ---
 
-SSD Features:
-Available in two modes Common Cathode (CC) and Common Anode (CA)
-Available in many different sizes like 9.14mm,14.20mm,20.40mm,38.10mm,57.0mm and 100mm (Commonly used/available size is 14.20mm)
-Available in many packages like single and multi digit. There are some custom packages like clocks, meters, panels etc.
-Available colours: White, Blue, Red, Yellow and Green etc.
-Low current operation
-Better, brighter and larger display than conventional LCD displays.
-Current consumption : 30mA / segment
-Peak current : 70mA.
-Distance readable display dislike LCD's.
+## 3. Seven-Segment Display Characteristics
 
+Seven-segment displays are available as:  
+- **Common Cathode (CC)**  
+- **Common Anode (CA)**  
 
+Common features include:
+- Sizes: 9.14 mm, 14.20 mm, 20.40 mm, 38.10 mm, 57 mm, 100 mm  
+- Available in single and multi-digit packages  
+- Colors: Red, Yellow, Green, Blue, White  
+- Typical current consumption: **30 mA / segment**  
+- Peak current: **70 mA / segment**  
+- Good visibility over distance  
 
+In this project, a **single-digit Common Cathode SSD** is used.
 
-
-
-
-
-
+---
 
 
 
@@ -95,6 +100,9 @@ Distance readable display dislike LCD's.
 | 9 | a b c d f g | `0x6F` |
 
 ---
+
+
+````
 
 ## 💻 Assembly Code for Displaying 0–9 Continuously
 
@@ -189,7 +197,7 @@ LOOP_1_MS:			; Loops 250 times
 ; END of the Assembly Program
 ;====================================================================
 ````
-
+---
 
 
 ## 💻 Assembly Code for Displaying 0–9 Continuously (using Lookup Table)
@@ -298,15 +306,50 @@ SSD_CC:	DB 3FH,06H,05BH,04FH,066H,06DH, 07DH,07H,07FH,06FH
 
 ---
 
-## 🖼️ Photos of Tested Runs
+7.3 Circuit Diagram (Placeholder)
+Insert: images/8051_7segment_circuit.png
 
-> *(Insert your test photos here in GitHub later)*
+8. Hardware Implementation (Optional)
 
-```md
-![Proteus Circuit](images/circuit.png)
-![Output Digit](images/output.jpg)
-```
-<img src="./AT89C51_7_Segment_Simple.png" alt="AT89C51 7-Segment Simple" />
+If you are testing on a real development board:
+
+Ensure segment current never exceeds 30 mA
+
+Use appropriate resistor values
+
+Verify common pins are connected to GND (Common Cathode)
+
+Check correct orientation of the SSD
+
+Photos (Placeholders)
+images/hardware_front_view.jpg  
+images/hardware_output.jpg  
+
+9. Video Demonstration (Placeholder)
+
+Upload your test video and link it here:
+
+[Watch the Demonstration](https://your-video-link.com)
+
+10. Troubleshooting Guide
+Problem	Possible Cause	Solution
+All segments off	Wrong common pin connection	Ensure SSD is Common Cathode and tied to GND
+Incorrect digit shown	Wrong bit pattern	Verify HEX codes
+Display too dim	High-value resistors	Reduce resistor value to 220–330Ω
+No response	Incorrect HEX file loaded	Regenerate and reload HEX
+11. Advanced Extensions
+
+You may extend this project to:
+
+Four-digit multiplexed seven-segment display
+
+Stopwatch or digital clock
+
+Frequency counter
+
+Sensor value display via ADC
+
+Up/Down counter with push buttons
 ---
 
 
