@@ -227,7 +227,7 @@ END
 # 🧪 Proteus Simulation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/main/8051%207-Segment/Images/8051_7_Segment_Display_1_Digit_CC_Circuit.png" width="480">
+  <img src="https://raw.githubusercontent.com/gmostofabd/8051-Assembly-Programming-and-Proteus-Simulation/gmostofabd-patch-1/8051_7_Segment_Display%28SSD%29/Images/8051_7_Segment_Display_1_Digit_CC_Circuit.png" alt="8051 7 Segment Display 1 Digit CC Circuit" width="900">
   <br>
   <span style="color:#0077ff;"><b>Figure 2: Seven Segment Display Simulation</b></span>
 </p>
