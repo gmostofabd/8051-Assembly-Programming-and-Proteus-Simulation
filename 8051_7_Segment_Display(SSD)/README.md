@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <img src="../Images/8051_7_Segment_Display(SSD)_1_Digit_CC.gif" alt="Seven Segment Display with 8051" width="900">
+  <img src="./Images/8051_7_Segment_Display(SSD)_1_Digit_CC.gif" alt="Seven Segment Display with 8051" width="900">
   <br>
   <span style="color:#0077ff;"><b>Figure 1: Seven Segment Display connected to the AT89C51 Microcontroller</b></span>
 </p>
